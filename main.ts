@@ -23,6 +23,8 @@ import { getIndicatorValues } from "./lib/ta.ts";
 const token = Deno.env.get("ghtoken");
 const router = new Router();
 
+export const TRADINGVIEW_BASE_URI = "https://mytradingview.vercel.app/"
+
 const getHistoricalOptionsData = async (s: string, dt: string) => {
     const memData = getOptionsDataSummary();
     const assetUrl = Object.values(memData).find((j) => j.displayName == dt)
@@ -32,7 +34,7 @@ const getHistoricalOptionsData = async (s: string, dt: string) => {
     }
 
     const data = await ky(
-        `https://raw.githubusercontent.com/mnsrulz/mytradingview-data/main/data/dt=${dt}/symbol=${s.toUpperCase()}/data.json`,
+        `https://raw.githubusercontent.com/5amclub/mytradingview-data/main/data/dt=${dt}/symbol=${s.toUpperCase()}/data.json`,
         {
             headers: {
                 Authorization: `Bearer ${token}`,
@@ -50,7 +52,7 @@ router.get("/", (context) => {
             name: j.displayName,
         })).reverse();
         const releases = await ky(
-            `https://api.github.com/repos/mnsrulz/mytradingview-data/tags`,
+            `https://api.github.com/repos/5amclub/mytradingview-data/tags`,
             {
                 headers: {
                     Authorization: `Bearer ${token}`,
@@ -83,7 +85,7 @@ router.get("/", (context) => {
     .get("/summary", async (context) => {
         const { s } = getQuery(context);
         const data = await ky(
-            `https://raw.githubusercontent.com/mnsrulz/mytradingview-data/main/summary/data.json`,
+            `https://raw.githubusercontent.com/5amclub/mytradingview-data/main/summary/data.json`,
             {
                 headers: {
                     Authorization: `Bearer ${token}`,
@@ -199,12 +201,12 @@ router.get("/", (context) => {
             // context.response.type = "image/png";
         } else {
             // console.log(
-            // `calling endpoint: https://api.github.com/repos/mnsrulz/mytradingview-data/releases/tags/${
+            // `calling endpoint: https://api.github.com/repos/5amclub/mytradingview-data/releases/tags/${
             //     dt.substring(0, 10)
             //     }`,
             // );
             const { assets } = await ky(
-                `https://api.github.com/repos/mnsrulz/mytradingview-data/releases/tags/${dt.substring(0, 10)
+                `https://api.github.com/repos/5amclub/mytradingview-data/releases/tags/${dt.substring(0, 10)
                 }`,
                 {
                     headers: {
@@ -227,7 +229,7 @@ router.get("/", (context) => {
     })
     .get("/legacy/releases", async (context) => {
         const releases = await ky(
-            `https://api.github.com/repos/mnsrulz/mytradingview-data/tags`,
+            `https://api.github.com/repos/5amclub/mytradingview-data/tags`,
             {
                 headers: {
                     Authorization: `Bearer ${token}`,
@@ -246,7 +248,7 @@ router.get("/", (context) => {
             );
         } else {
             const { assets } = await ky(
-                `https://api.github.com/repos/mnsrulz/mytradingview-data/releases/tags/${r}`,
+                `https://api.github.com/repos/5amclub/mytradingview-data/releases/tags/${r}`,
                 {
                     headers: {
                         Authorization: `Bearer ${token}`,
@@ -348,4 +350,4 @@ app.use(async (context, next) => {
 
 app.use(router.routes());
 app.use(router.allowedMethods());
-await app.listen({ port: 8000 });
+await app.listen({ port: 30196 });

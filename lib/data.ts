@@ -71,7 +71,7 @@ export const mapDataToLegacy = () => {
     });
 };
 
-export const ghRepoBaseUrl = 'https://github.com/mnsrulz/mztrading-data/releases/download';
+export const ghRepoBaseUrl = 'https://github.com/5amclub/mztrading-data/releases/download';
 
 export const cleanSymbol = (symbol: string) => decodeURIComponent(symbol).replace(/\W/g, '');
 

@@ -29,7 +29,7 @@ def parse_options_data(data):
     return options_df
 
 # Fetch the list of symbols
-watchlist_response = requests.get("https://mztrading.netlify.app/api/watchlist")
+watchlist_response = requests.get("https://mytradingview.vercel.app/api/watchlist")
 watchlist_response.raise_for_status()
 watchlist = watchlist_response.json()  # Expected format: { items: [{ symbol: str, name: str }] }
 
@@ -121,7 +121,7 @@ else:
     summary_data = []
 
 # Add a new record with the current timestamp
-summary_data.append({"name": release_name, "optionsAssetUrl":f"https://github.com/mnsrulz/mztrading-data/releases/download/{release_name}/options_data.parquet", "stocksAssetUrl":f"https://github.com/mnsrulz/mztrading-data/releases/download/{release_name}/stock_data.parquet"})
+summary_data.append({"name": release_name, "optionsAssetUrl":f"https://github.com/5amclub/mztrading-data/releases/download/{release_name}/options_data.parquet", "stocksAssetUrl":f"https://github.com/5amclub/mztrading-data/releases/download/{release_name}/stock_data.parquet"})
 
 # Write updated summary back to the JSON file
 with open(summary_file, "w") as file:
