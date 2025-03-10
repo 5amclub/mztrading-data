@@ -23,7 +23,7 @@ jobs:
           deno-version: v1.x
 
       - name: Run TypeScript file
-        run: deno run --allow-all jobs/main-symbols-cboe-download.ts
+        run: deno run --allow-all --unstable-kv jobs/main-symbols-cboe-download.ts
 
       - name: Configure git
         run: |

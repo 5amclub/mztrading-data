@@ -41,7 +41,7 @@ jobs:
       - name: Setup puppeteer
         run: PUPPETEER_PRODUCT=chrome deno run -A https://deno.land/x/puppeteer@16.2.0/install.ts
       - name: Run
-        run: deno run --allow-all jobs/main-options-snapshot.ts
+        run: deno run --allow-all --unstable-kv jobs/main-options-snapshot.ts
       - name: Upload artifacts 
         uses: actions/upload-artifact@v4
         with:
