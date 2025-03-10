@@ -31,7 +31,7 @@ jobs:
         with:
           deno-version: v1.x
       - name: Run job
-        run: deno run --allow-all jobs/main-options-historical.ts
+        run: deno run --allow-all --unstable-kv jobs/main-options-historical.ts
       - name: Upload artifacts 
         uses: actions/upload-artifact@v4
         with:
