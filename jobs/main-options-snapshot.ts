@@ -8,6 +8,7 @@ import { chunk } from "jsr:@std/collections";
 const maxBatches = 10;
 
 import { getOptionsDataSummary, getOptionsSnapshotSummary, ghRepoBaseUrl, cleanSymbol } from "../lib/data.ts";
+import { TRADINGVIEW_BASE_URI } from "../main.ts";
 const dataFolder = `temp/options-snapshots`;
 await ensureDir(dataFolder);
 const data = getOptionsSnapshotSummary();
@@ -53,7 +54,7 @@ async function processBatch(batchSymbols: string[]) {
     const browser = await puppeteer.launch();
     const page = await browser.newPage();
     await page.goto(
-        `https://mztrading.netlify.app/tools/snapshot?showDexGex=true&dgextab=DEX&print=true&datamode=${encodeURIComponent(latestDate)}`,
+        `${TRADINGVIEW_BASE_URI}/tools/snapshot?showDexGex=true&dgextab=DEX&print=true&datamode=${encodeURIComponent(latestDate)}`,
         {
             waitUntil: "networkidle2",
         },

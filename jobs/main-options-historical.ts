@@ -2,7 +2,8 @@ import ky from "https://esm.sh/ky@1.2.3";
 import { format } from "https://deno.land/std@0.224.0/datetime/format.ts";
 import { ensureDir } from "https://deno.land/std@0.224.0/fs/ensure_dir.ts";
 import { getOptionsDataSummary, cleanSymbol } from "../lib/data.ts";
-const tickers = await ky("https://mztrading.netlify.app/api/watchlist").json<
+import { TRADINGVIEW_BASE_URI } from "../main.ts";
+const tickers = await ky(`${TRADINGVIEW_BASE_URI}/api/watchlist`).json<
     { items: { symbol: string; name: string }[] }
 >();
 
@@ -24,7 +25,7 @@ for (const ticker of items) {
     try {
         console.log(`Processing ticker: ${symbol}`);
         const fileName = `${cleanedSymbol}.json`;
-        const { raw } = await ky(`https://mztrading.netlify.app/api/symbols/${symbol}/options/analyze/tradier?dte=90&sc=30`).json<{ raw: any }>();
+        const { raw } = await ky(`${TRADINGVIEW_BASE_URI}/api/symbols/${symbol}/options/analyze/tradier?dte=90&sc=30`).json<{ raw: any }>();
         await Deno.writeTextFile(
             `${dataFolder}/${fileName}`,
             JSON.stringify(raw),
@@ -32,7 +33,7 @@ for (const ticker of items) {
         data[releaseName].symbols[symbol] = {
             fileName: fileName,
             assetUrl:
-                `https://github.com/mnsrulz/mztrading-data/releases/download/${releaseName}/${fileName}`,
+                `https://github.com/5amclub/mztrading-data/releases/download/${releaseName}/${fileName}`,
         };
     } catch (error) {
         console.log(`error occurred while loading data for symbol: ${symbol}`);
