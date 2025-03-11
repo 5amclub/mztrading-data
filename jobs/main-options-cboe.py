@@ -29,7 +29,7 @@ def parse_options_data(data):
     return options_df
 
 # Fetch the list of symbols
-watchlist_response = requests.get("https://mytradingview.vercel.app/api/watchlist")
+watchlist_response = requests.get("https://mztrading.netlify.app/api/watchlist")
 watchlist_response.raise_for_status()
 watchlist = watchlist_response.json()  # Expected format: { items: [{ symbol: str, name: str }] }
 
