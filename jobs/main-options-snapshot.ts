@@ -8,7 +8,7 @@ import { chunk } from "jsr:@std/collections";
 const maxBatches = 10;
 
 import { getOptionsDataSummary, getOptionsSnapshotSummary, ghRepoBaseUrl, cleanSymbol } from "../lib/data.ts";
-import { TRADINGVIEW_BASE_URI } from "../main.ts";
+import { TRADINGVIEW_BASE_URI } from "../lib/constant.ts";
 const dataFolder = `temp/options-snapshots`;
 await ensureDir(dataFolder);
 const data = getOptionsSnapshotSummary();

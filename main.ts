@@ -23,7 +23,6 @@ import { getIndicatorValues } from "./lib/ta.ts";
 const token = Deno.env.get("ghtoken");
 const router = new Router();
 
-export const TRADINGVIEW_BASE_URI = "https://mztrading.netlify.app"
 
 const getHistoricalOptionsData = async (s: string, dt: string) => {
     const memData = getOptionsDataSummary();
