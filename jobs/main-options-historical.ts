@@ -2,10 +2,12 @@ import ky from "https://esm.sh/ky@1.2.3";
 import { format } from "https://deno.land/std@0.224.0/datetime/format.ts";
 import { ensureDir } from "https://deno.land/std@0.224.0/fs/ensure_dir.ts";
 import { getOptionsDataSummary, cleanSymbol } from "../lib/data.ts";
-import { TRADINGVIEW_BASE_URI } from "../main.ts";
+import { TRADINGVIEW_BASE_URI } from "../lib/constant.ts";
+
 const tickers = await ky(`${TRADINGVIEW_BASE_URI}/api/watchlist`).json<
     { items: { symbol: string; name: string }[] }
 >();
+
 
 console.log(`found ${tickers.items.length} tickers...`);
 const items = tickers.items; //.slice(0, 3); //for testing work only with 3 items

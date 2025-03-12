@@ -1,0 +1,1 @@
+export const TRADINGVIEW_BASE_URI = "https://mztrading.netlify.app"
