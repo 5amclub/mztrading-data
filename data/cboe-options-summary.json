@@ -1,0 +1,7 @@
+[
+    {
+        "name": "CBOE_OPTION_DATA_2025-03-11-13-18-49",
+        "optionsAssetUrl": "https://github.com/mnsrulz/mztrading-data/releases/download/CBOE_OPTION_DATA_2025-03-11-13-18-49/options_data.parquet",
+        "stocksAssetUrl": "https://github.com/mnsrulz/mztrading-data/releases/download/CBOE_OPTION_DATA_2025-03-11-13-18-49/stock_data.parquet"
+    }
+]
