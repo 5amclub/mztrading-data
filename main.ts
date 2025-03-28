@@ -33,7 +33,7 @@ const getHistoricalOptionsData = async (s: string, dt: string) => {
     }
 
     const data = await ky(
-        `https://raw.githubusercontent.com/5amclub/mytradingview-data/main/data/dt=${dt}/symbol=${s.toUpperCase()}/data.json`,
+        `https://raw.githubusercontent.com/5amclub/mytradingview/main/data/dt=${dt}/symbol=${s.toUpperCase()}/data.json`,
         {
             headers: {
                 Authorization: `Bearer ${token}`,
@@ -51,7 +51,7 @@ router.get("/", (context) => {
             name: j.displayName,
         })).reverse();
         const releases = await ky(
-            `https://api.github.com/repos/5amclub/mytradingview-data/tags`,
+            `https://api.github.com/repos/5amclub/mytradingview/tags`,
             {
                 headers: {
                     Authorization: `Bearer ${token}`,
@@ -84,7 +84,7 @@ router.get("/", (context) => {
     .get("/summary", async (context) => {
         const { s } = getQuery(context);
         const data = await ky(
-            `https://raw.githubusercontent.com/5amclub/mytradingview-data/main/summary/data.json`,
+            `https://raw.githubusercontent.com/5amclub/mytradingview/main/summary/data.json`,
             {
                 headers: {
                     Authorization: `Bearer ${token}`,
@@ -170,7 +170,7 @@ router.get("/", (context) => {
             const u =
                 OptionsSnapshotSummaryLegacy[dt].symbols[s].dex.hdAssetUrl;
 
-            //console.log(`asset url found: ${u}`);
+            console.log(`asset url found: ${u}`);
 
             const { headers, status } = await ky.head(u, {
                 redirect: "manual",
@@ -205,7 +205,7 @@ router.get("/", (context) => {
             //     }`,
             // );
             const { assets } = await ky(
-                `https://api.github.com/repos/5amclub/mytradingview-data/releases/tags/${dt.substring(0, 10)
+                `https://api.github.com/repos/5amclub/mytradingview/releases/tags/${dt.substring(0, 10)
                 }`,
                 {
                     headers: {
