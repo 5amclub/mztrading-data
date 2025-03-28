@@ -45,7 +45,7 @@ type CboeOptionSummaryType = {
     optionsAssetUrl: string
 }
 
-type TickerSymbol = { name: string, symbol: string}
+type TickerSymbol = { name: string, symbol: string }
 
 export const getOptionsDataSummary = () => {
     return optionsDataSummary as OptionsDataSummary;
@@ -55,11 +55,11 @@ export const getOptionsSnapshotSummary = () => {
     return optionsSnapshotSummary as OptionsSnapshotSummary;
 };
 
-export const OptionsSnapshotSummary= (optionsSnapshotSummary as OptionsSnapshotSummary);
+export const OptionsSnapshotSummary = (optionsSnapshotSummary as OptionsSnapshotSummary);
 
 
 
-export const OptionsSnapshotSummaryLegacy = Object.fromEntries(Object.keys(OptionsSnapshotSummary).map(j=> [OptionsSnapshotSummary[j].displayName, { symbols: OptionsSnapshotSummary[j].symbols} ]));
+export const OptionsSnapshotSummaryLegacy = Object.fromEntries(Object.keys(OptionsSnapshotSummary).map(j => [OptionsSnapshotSummary[j].displayName, { symbols: OptionsSnapshotSummary[j].symbols }]));
 
 export const mapDataToLegacy = () => {
     const intermediateData = getOptionsDataSummary();
@@ -87,4 +87,4 @@ export const searchTicker = (q: string) => {
     return filtered;
 }
 
-export const CboeOptionsRawSummary =  (cboeOptionsSummary as CboeOptionSummaryType[]).map(({ name, optionsAssetUrl })=> ({ name, optionsAssetUrl, dt: name.replace('CBOE_OPTIONS_DATA_', '').substring(0, 10) }));
+export const CboeOptionsRawSummary = (cboeOptionsSummary as CboeOptionSummaryType[]).map(({ name, optionsAssetUrl }) => ({ name, optionsAssetUrl, dt: name.replace('CBOE_OPTIONS_DATA_', '').substring(0, 10) }));

@@ -14,7 +14,7 @@ const JSDELIVR_BUNDLES = getJsDelivrBundles();
 
 const initialize = async () => {
     const { assetUrl, name } = optionsRollingSummary;
-    // const ds = 'https://github.com/mnsrulz/mztrading-data/releases/download/archives/output_test_all.parquet';
+    // const ds = 'https://github.com/5amclub/mztrading-data/releases/download/archives/output_test_all.parquet';
 
     //HTTP paths are not supported due to xhr not available in deno.
     //db.registerFileURL('db.parquet', assetUrl, DuckDBDataProtocol.HTTP, false);
@@ -60,7 +60,7 @@ export const getHistoricalOptionDataFromParquet = async (symbol: string, dt: str
 
 export const getHistoricalGreeksSummaryDataFromParquet = async (dt: string, dte: number | undefined) => {
     const conn = await getConnection();
-    const dteFilterExpression =  dte ? `AND expiration < date_add(dt, INTERVAL ${dte} DAYS)` : '';  //revisit it to get clarity on adding/subtracting days
+    const dteFilterExpression = dte ? `AND expiration < date_add(dt, INTERVAL ${dte} DAYS)` : '';  //revisit it to get clarity on adding/subtracting days
     const arrowResult = await conn.send(`
             SELECT
                 option_symbol,
@@ -94,9 +94,9 @@ export const lastHistoricalOptionDataFromParquet = () => {
 type MicroOptionPricingItem = { oi: number, b: number, a: number, v: number, l: number }
 type MicroOptionPricingContract = { c: Record<string, MicroOptionPricingItem>, p: Record<string, MicroOptionPricingItem> }
 
-type MicroOptionContractItem = { oi: number, volume: number, delta: number, gamma: number }
+type MicroOptionContractItem = { oi: number, volume: number, delta: number, gamma: number, iv: number, vega: number, theta: number }
 type MicroOptionContract = { call: MicroOptionContractItem, put: MicroOptionContractItem }
-type ExposureDataItem = { absDelta: number[], absGamma: number[], openInterest: number[], volume: number[] }
+type ExposureDataItem = { absDelta: number[], absGamma: number[], openInterest: number[], volume: number[], iv: number[], vega: number[], theta: number[] }
 type ExposureDataType = { call: ExposureDataItem, put: ExposureDataItem, netGamma: number[], strikes: string[], expiration: string, dte: number }
 
 export type ExposureDataRequest = { data: Record<string, Record<string, MicroOptionContract>>, spotPrice: number, spotDate: string }
@@ -122,6 +122,16 @@ export const calculateExpsoure = (spotPrice: number, indexedObject: Record<strin
         const dte = dayjs(expiration).diff(spotDate, 'day');
         if (dte < 0) continue; //skip if expiration is in the past
         const strikes = Object.keys(indexedObject[expiration]);
+
+        const callThetaData = new Array<number>(strikes.length).fill(0);
+        const putThetaData = new Array<number>(strikes.length).fill(0);
+
+        const callVegaData = new Array<number>(strikes.length).fill(0);
+        const putVegaData = new Array<number>(strikes.length).fill(0);
+
+        const callImpliedVolatilityData = new Array<number>(strikes.length).fill(0);
+        const putImpliedVolatilityData = new Array<number>(strikes.length).fill(0);
+
         const callOpenInterestData = new Array<number>(strikes.length).fill(0);
         const putOpenInterestData = new Array<number>(strikes.length).fill(0);
 
@@ -137,11 +147,21 @@ export const calculateExpsoure = (spotPrice: number, indexedObject: Record<strin
         const netGammaData = new Array<number>(strikes.length).fill(0);
 
         for (let ix = 0; ix < strikes.length; ix++) {
+
             callOpenInterestData[ix] = (indexedObject[expiration][strikes[ix]]?.call?.oi || 0);
             putOpenInterestData[ix] = indexedObject[expiration][strikes[ix]]?.put?.oi || 0;
 
             callVolumeData[ix] = (indexedObject[expiration][strikes[ix]]?.call?.volume || 0);
             putVolumeData[ix] = indexedObject[expiration][strikes[ix]]?.put?.volume || 0;
+
+            callThetaData[ix] = Math.trunc((indexedObject[expiration][strikes[ix]]?.call.theta || 0) * 100 * callOpenInterestData[ix] * spotPrice);
+            putThetaData[ix] = Math.trunc((indexedObject[expiration][strikes[ix]]?.put.theta || 0) * 100 * putOpenInterestData[ix] * spotPrice);
+
+            callVegaData[ix] = Math.trunc((indexedObject[expiration][strikes[ix]]?.call.vega || 0) * 100 * callOpenInterestData[ix] * spotPrice);
+            putVegaData[ix] = Math.trunc((indexedObject[expiration][strikes[ix]]?.put.vega || 0) * 100 * putOpenInterestData[ix] * spotPrice);
+
+            callImpliedVolatilityData[ix] = indexedObject[expiration][strikes[ix]]?.call.iv || 0;
+            putImpliedVolatilityData[ix] = indexedObject[expiration][strikes[ix]]?.put.iv || 0;
 
             callDeltaData[ix] = Math.trunc((indexedObject[expiration][strikes[ix]]?.call?.delta || 0) * 100 * callOpenInterestData[ix] * spotPrice);
             putDeltaData[ix] = Math.trunc((indexedObject[expiration][strikes[ix]]?.put?.delta || 0) * 100 * putOpenInterestData[ix] * spotPrice);
@@ -163,13 +183,19 @@ export const calculateExpsoure = (spotPrice: number, indexedObject: Record<strin
                 absDelta: callDeltaData,
                 absGamma: callGammaData,
                 openInterest: callOpenInterestData,
-                volume: callVolumeData
+                volume: callVolumeData,
+                iv: callImpliedVolatilityData,
+                vega: callVegaData,
+                theta: callThetaData
             },
             put: {
                 absDelta: putDeltaData,
                 absGamma: putGammaData,
                 openInterest: putOpenInterestData,
-                volume: putVolumeData
+                volume: putVolumeData,
+                iv: putImpliedVolatilityData,
+                vega: putVegaData,
+                theta: putThetaData
             },
             netGamma: netGammaData,
             strikes: strikes,
@@ -196,9 +222,9 @@ async function getHistoricalOptionData(symbol: string, dt: string) {
         previous[current.expiration][current.strike] = previous[current.expiration][current.strike] || {};
         //does it make sense to throw exception if delta/gamma values doesn't seem accurate? like gamma being negative or delta being greater than 1?
         if (current.option_type == 'C') {
-            previous[current.expiration][current.strike].call = { oi: current.open_interest, volume: current.volume, delta: current.delta, gamma: current.gamma };
+            previous[current.expiration][current.strike].call = { oi: current.open_interest, volume: current.volume, delta: current.delta, gamma: current.gamma, iv: current.iv, vega: current.vega, theta: current.theta };
         } else if (current.option_type == 'P') {
-            previous[current.expiration][current.strike].put = { oi: current.open_interest, volume: current.volume, delta: current.delta, gamma: current.gamma };
+            previous[current.expiration][current.strike].put = { oi: current.open_interest, volume: current.volume, delta: current.delta, gamma: current.gamma, iv: current.iv, vega: current.vega, theta: current.theta };
         } else {
             throw new Error("Invalid option type");
         }
@@ -219,9 +245,9 @@ async function getLiveCboeOptionData(symbol: string) {
         previous[current.expiration][current.strike] = previous[current.expiration][current.strike] || {};
         //does it make sense to throw exception if delta/gamma values doesn't seem accurate? like gamma being negative or delta being greater than 1?
         if (current.option_type == 'C') {
-            previous[current.expiration][current.strike].call = { oi: current.open_interest, volume: current.volume, delta: current.delta, gamma: current.gamma };
+            previous[current.expiration][current.strike].call = { oi: current.open_interest, volume: current.volume, delta: current.delta, gamma: current.gamma, iv: current.iv, vega: current.vega, theta: current.theta };
         } else if (current.option_type == 'P') {
-            previous[current.expiration][current.strike].put = { oi: current.open_interest, volume: current.volume, delta: current.delta, gamma: current.gamma };
+            previous[current.expiration][current.strike].put = { oi: current.open_interest, volume: current.volume, delta: current.delta, gamma: current.gamma, iv: current.iv, vega: current.vega, theta: current.theta };
         } else {
             throw new Error("Invalid option type");
         }
@@ -230,10 +256,10 @@ async function getLiveCboeOptionData(symbol: string) {
     return { spotPrice: currentPrice, indexedObject };
 }
 
-export async function getLiveCboeOptionsPricingData(symbol: string) {    
+export async function getLiveCboeOptionsPricingData(symbol: string) {
     const { data, currentPrice } = await getOptionsChain(symbol);
     const options = data.reduce((previous, current) => {
-        previous[current.expiration] = previous[current.expiration] || {c: {}, p: {}};        
+        previous[current.expiration] = previous[current.expiration] || { c: {}, p: {} };
         if (current.option_type == 'C') {
             previous[current.expiration].c[current.strike] = { oi: current.open_interest, v: current.volume, l: current.last_trade_price, a: current.ask, b: current.bid };
         } else if (current.option_type == 'P') {
