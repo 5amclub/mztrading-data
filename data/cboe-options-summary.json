@@ -168,5 +168,10 @@
         "name": "CBOE_OPTIONS_DATA_2025-04-14-13-09-35",
         "optionsAssetUrl": "https://github.com/5amclub/mztrading-data/releases/download/CBOE_OPTIONS_DATA_2025-04-14-13-09-35/options_data.parquet",
         "stocksAssetUrl": "https://github.com/5amclub/mztrading-data/releases/download/CBOE_OPTIONS_DATA_2025-04-14-13-09-35/stock_data.parquet"
+    },
+    {
+        "name": "CBOE_OPTIONS_DATA_2025-04-15-13-09-07",
+        "optionsAssetUrl": "https://github.com/5amclub/mztrading-data/releases/download/CBOE_OPTIONS_DATA_2025-04-15-13-09-07/options_data.parquet",
+        "stocksAssetUrl": "https://github.com/5amclub/mztrading-data/releases/download/CBOE_OPTIONS_DATA_2025-04-15-13-09-07/stock_data.parquet"
     }
 ]
