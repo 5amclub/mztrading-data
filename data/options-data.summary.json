@@ -25435,1845 +25435,1841 @@
       }
     }
   },
-  "OPTIONS_DATA_2025-04-15": {
-    "displayName": "2025-04-15 12:12",
-    "created": "2025-04-15T12:12:54.387Z",
+  "OPTIONS_DATA_2025-04-12": {
+    "displayName": "2025-04-12 12:10",
+    "created": "2025-04-12T12:10:50.499Z",
     "symbols": {
       "FLR": {
         "fileName": "FLR.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/FLR.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/FLR.json"
       },
       "WULF": {
         "fileName": "WULF.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/WULF.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/WULF.json"
       },
       "LUMN": {
         "fileName": "LUMN.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/LUMN.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/LUMN.json"
       },
       "VKTX": {
         "fileName": "VKTX.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/VKTX.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/VKTX.json"
       },
       "SOFI": {
         "fileName": "SOFI.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/SOFI.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/SOFI.json"
       },
       "ARMK": {
         "fileName": "ARMK.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/ARMK.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/ARMK.json"
       },
       "RMTI": {
         "fileName": "RMTI.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/RMTI.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/RMTI.json"
       },
       "IONQ": {
         "fileName": "IONQ.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/IONQ.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/IONQ.json"
       },
       "AMD": {
         "fileName": "AMD.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/AMD.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/AMD.json"
       },
       "ABNB": {
         "fileName": "ABNB.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/ABNB.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/ABNB.json"
       },
       "ACHR": {
         "fileName": "ACHR.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/ACHR.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/ACHR.json"
       },
       "AFRM": {
         "fileName": "AFRM.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/AFRM.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/AFRM.json"
       },
       "AI": {
         "fileName": "AI.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/AI.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/AI.json"
       },
       "ALB": {
         "fileName": "ALB.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/ALB.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/ALB.json"
       },
       "AMZN": {
         "fileName": "AMZN.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/AMZN.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/AMZN.json"
       },
       "ARM": {
         "fileName": "ARM.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/ARM.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/ARM.json"
       },
       "ASTS": {
         "fileName": "ASTS.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/ASTS.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/ASTS.json"
       },
       "AVGO": {
         "fileName": "AVGO.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/AVGO.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/AVGO.json"
       },
       "BA": {
         "fileName": "BA.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/BA.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/BA.json"
       },
       "BABA": {
         "fileName": "BABA.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/BABA.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/BABA.json"
       },
       "BAC": {
         "fileName": "BAC.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/BAC.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/BAC.json"
       },
       "BBY": {
         "fileName": "BBY.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/BBY.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/BBY.json"
       },
       "BIDU": {
         "fileName": "BIDU.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/BIDU.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/BIDU.json"
       },
       "BITO": {
         "fileName": "BITO.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/BITO.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/BITO.json"
       },
       "BITX": {
         "fileName": "BITX.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/BITX.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/BITX.json"
       },
       "CAT": {
         "fileName": "CAT.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/CAT.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/CAT.json"
       },
       "CLSK": {
         "fileName": "CLSK.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/CLSK.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/CLSK.json"
       },
       "CMCSA": {
         "fileName": "CMCSA.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/CMCSA.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/CMCSA.json"
       },
       "COIN": {
         "fileName": "COIN.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/COIN.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/COIN.json"
       },
       "CONL": {
         "fileName": "CONL.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/CONL.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/CONL.json"
       },
       "CORZ": {
         "fileName": "CORZ.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/CORZ.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/CORZ.json"
       },
       "CRM": {
         "fileName": "CRM.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/CRM.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/CRM.json"
       },
       "CRWD": {
         "fileName": "CRWD.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/CRWD.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/CRWD.json"
       },
       "CVS": {
         "fileName": "CVS.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/CVS.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/CVS.json"
       },
       "DASH": {
         "fileName": "DASH.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/DASH.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/DASH.json"
       },
       "DELL": {
         "fileName": "DELL.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/DELL.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/DELL.json"
       },
       "DIS": {
         "fileName": "DIS.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/DIS.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/DIS.json"
       },
       "DJT": {
         "fileName": "DJT.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/DJT.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/DJT.json"
       },
       "ETHU": {
         "fileName": "ETHU.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/ETHU.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/ETHU.json"
       },
       "F": {
         "fileName": "F.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/F.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/F.json"
       },
       "FDX": {
         "fileName": "FDX.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/FDX.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/FDX.json"
       },
       "GOOGL": {
         "fileName": "GOOGL.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/GOOGL.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/GOOGL.json"
       },
       "HOOD": {
         "fileName": "HOOD.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/HOOD.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/HOOD.json"
       },
       "HPE": {
         "fileName": "HPE.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/HPE.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/HPE.json"
       },
       "HPQ": {
         "fileName": "HPQ.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/HPQ.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/HPQ.json"
       },
       "INTC": {
         "fileName": "INTC.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/INTC.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/INTC.json"
       },
       "ITA": {
         "fileName": "ITA.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/ITA.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/ITA.json"
       },
       "IWM": {
         "fileName": "IWM.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/IWM.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/IWM.json"
       },
       "JNJ": {
         "fileName": "JNJ.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/JNJ.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/JNJ.json"
       },
       "KR": {
         "fileName": "KR.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/KR.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/KR.json"
       },
       "KSS": {
         "fileName": "KSS.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/KSS.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/KSS.json"
       },
       "META": {
         "fileName": "META.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/META.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/META.json"
       },
       "MSFT": {
         "fileName": "MSFT.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/MSFT.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/MSFT.json"
       },
       "MSTR": {
         "fileName": "MSTR.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/MSTR.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/MSTR.json"
       },
       "MU": {
         "fileName": "MU.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/MU.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/MU.json"
       },
       "MUSA": {
         "fileName": "MUSA.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/MUSA.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/MUSA.json"
       },
       "NFLX": {
         "fileName": "NFLX.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/NFLX.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/NFLX.json"
       },
       "NKE": {
         "fileName": "NKE.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/NKE.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/NKE.json"
       },
       "NVDA": {
         "fileName": "NVDA.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/NVDA.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/NVDA.json"
       },
       "NVDL": {
         "fileName": "NVDL.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/NVDL.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/NVDL.json"
       },
       "PFE": {
         "fileName": "PFE.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/PFE.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/PFE.json"
       },
       "PLTR": {
         "fileName": "PLTR.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/PLTR.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/PLTR.json"
       },
       "PM": {
         "fileName": "PM.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/PM.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/PM.json"
       },
       "QQQ": {
         "fileName": "QQQ.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/QQQ.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/QQQ.json"
       },
       "RBLX": {
         "fileName": "RBLX.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/RBLX.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/RBLX.json"
       },
       "RDDT": {
         "fileName": "RDDT.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/RDDT.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/RDDT.json"
       },
       "RIOT": {
         "fileName": "RIOT.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/RIOT.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/RIOT.json"
       },
       "SBUX": {
         "fileName": "SBUX.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/SBUX.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/SBUX.json"
       },
       "SMCI": {
         "fileName": "SMCI.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/SMCI.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/SMCI.json"
       },
       "SMH": {
         "fileName": "SMH.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/SMH.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/SMH.json"
       },
       "SNAP": {
         "fileName": "SNAP.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/SNAP.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/SNAP.json"
       },
       "SNOW": {
         "fileName": "SNOW.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/SNOW.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/SNOW.json"
       },
       "SONY": {
         "fileName": "SONY.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/SONY.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/SONY.json"
       },
       "SOXL": {
         "fileName": "SOXL.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/SOXL.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/SOXL.json"
       },
       "SPY": {
         "fileName": "SPY.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/SPY.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/SPY.json"
       },
       "TGT": {
         "fileName": "TGT.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/TGT.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/TGT.json"
       },
       "TMUS": {
         "fileName": "TMUS.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/TMUS.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/TMUS.json"
       },
       "TSLA": {
         "fileName": "TSLA.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/TSLA.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/TSLA.json"
       },
       "TSLL": {
         "fileName": "TSLL.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/TSLL.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/TSLL.json"
       },
       "TSM": {
         "fileName": "TSM.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/TSM.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/TSM.json"
       },
       "U": {
         "fileName": "U.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/U.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/U.json"
       },
       "UNH": {
         "fileName": "UNH.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/UNH.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/UNH.json"
       },
       "UPST": {
         "fileName": "UPST.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/UPST.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/UPST.json"
       },
       "VT": {
         "fileName": "VT.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/VT.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/VT.json"
       },
       "W": {
         "fileName": "W.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/W.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/W.json"
       },
       "WMT": {
         "fileName": "WMT.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/WMT.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/WMT.json"
       },
       "XBI": {
         "fileName": "XBI.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/XBI.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/XBI.json"
       },
       "XEL": {
         "fileName": "XEL.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/XEL.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/XEL.json"
       },
       "XLB": {
         "fileName": "XLB.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/XLB.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/XLB.json"
       },
       "XLC": {
         "fileName": "XLC.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/XLC.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/XLC.json"
       },
       "XLE": {
         "fileName": "XLE.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/XLE.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/XLE.json"
       },
       "XLF": {
         "fileName": "XLF.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/XLF.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/XLF.json"
       },
       "XLI": {
         "fileName": "XLI.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/XLI.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/XLI.json"
       },
       "XLK": {
         "fileName": "XLK.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/XLK.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/XLK.json"
       },
       "XLP": {
         "fileName": "XLP.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/XLP.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/XLP.json"
       },
       "XLV": {
         "fileName": "XLV.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/XLV.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/XLV.json"
       },
       "XLY": {
         "fileName": "XLY.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/XLY.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/XLY.json"
       },
       "AAPL": {
         "fileName": "AAPL.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/AAPL.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/AAPL.json"
       },
       "GLD": {
         "fileName": "GLD.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/GLD.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/GLD.json"
       },
       "UBER": {
         "fileName": "UBER.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/UBER.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/UBER.json"
       },
       "SNPS": {
         "fileName": "SNPS.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/SNPS.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/SNPS.json"
       },
       "IBM": {
         "fileName": "IBM.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/IBM.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/IBM.json"
       },
       "LUNR": {
         "fileName": "LUNR.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/LUNR.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/LUNR.json"
       },
       "RKLB": {
         "fileName": "RKLB.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/RKLB.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/RKLB.json"
       },
       "GTLB": {
         "fileName": "GTLB.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/GTLB.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/GTLB.json"
       },
       "GME": {
         "fileName": "GME.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/GME.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/GME.json"
       },
       "BTI": {
         "fileName": "BTI.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/BTI.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/BTI.json"
       },
       "HIMS": {
         "fileName": "HIMS.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/HIMS.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/HIMS.json"
       },
       "ONON": {
         "fileName": "ONON.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/ONON.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/ONON.json"
       },
       "MSTX": {
         "fileName": "MSTX.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/MSTX.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/MSTX.json"
       },
       "SHOP": {
         "fileName": "SHOP.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/SHOP.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/SHOP.json"
       },
       "HCC": {
         "fileName": "HCC.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/HCC.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/HCC.json"
       },
       "PTON": {
         "fileName": "PTON.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/PTON.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/PTON.json"
       },
       "BSX": {
         "fileName": "BSX.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/BSX.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/BSX.json"
+      },
+      "ACCD": {
+        "fileName": "ACCD.json",
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/ACCD.json"
       },
       "CSCO": {
         "fileName": "CSCO.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/CSCO.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/CSCO.json"
       },
       "MCD": {
         "fileName": "MCD.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/MCD.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/MCD.json"
       },
       "ASPI": {
         "fileName": "ASPI.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/ASPI.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/ASPI.json"
       },
       "EVGO": {
         "fileName": "EVGO.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/EVGO.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/EVGO.json"
       },
       "AVAV": {
         "fileName": "AVAV.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/AVAV.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/AVAV.json"
       },
       "TLT": {
         "fileName": "TLT.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/TLT.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/TLT.json"
       },
       "DDOG": {
         "fileName": "DDOG.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/DDOG.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/DDOG.json"
       },
       "NOV": {
         "fileName": "NOV.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/NOV.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/NOV.json"
       },
       "RSI": {
         "fileName": "RSI.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/RSI.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/RSI.json"
       },
       "DXCM": {
         "fileName": "DXCM.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/DXCM.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/DXCM.json"
       },
       "LRMR": {
         "fileName": "LRMR.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/LRMR.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/LRMR.json"
       },
       "SMR": {
         "fileName": "SMR.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/SMR.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/SMR.json"
       },
       "CVNA": {
         "fileName": "CVNA.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/CVNA.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/CVNA.json"
       },
       "LEU": {
         "fileName": "LEU.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/LEU.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/LEU.json"
       },
       "BE": {
         "fileName": "BE.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/BE.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/BE.json"
       },
       "OKLO": {
         "fileName": "OKLO.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/OKLO.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/OKLO.json"
       },
       "LE": {
         "fileName": "LE.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/LE.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/LE.json"
       },
       "AA": {
         "fileName": "AA.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/AA.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/AA.json"
       },
       "AAL": {
         "fileName": "AAL.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/AAL.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/AAL.json"
       },
       "AAOI": {
         "fileName": "AAOI.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/AAOI.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/AAOI.json"
       },
       "ABBV": {
         "fileName": "ABBV.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/ABBV.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/ABBV.json"
       },
       "ABT": {
         "fileName": "ABT.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/ABT.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/ABT.json"
       },
       "ACAD": {
         "fileName": "ACAD.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/ACAD.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/ACAD.json"
       },
       "ACN": {
         "fileName": "ACN.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/ACN.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/ACN.json"
       },
       "ADBE": {
         "fileName": "ADBE.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/ADBE.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/ADBE.json"
       },
       "ADI": {
         "fileName": "ADI.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/ADI.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/ADI.json"
       },
       "AGG": {
         "fileName": "AGG.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/AGG.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/AGG.json"
       },
       "AIG": {
         "fileName": "AIG.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/AIG.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/AIG.json"
       },
       "ALGM": {
         "fileName": "ALGM.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/ALGM.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/ALGM.json"
       },
       "AMAT": {
         "fileName": "AMAT.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/AMAT.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/AMAT.json"
       },
       "AMC": {
         "fileName": "AMC.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/AMC.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/AMC.json"
       },
       "AMGN": {
         "fileName": "AMGN.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/AMGN.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/AMGN.json"
       },
       "AMSC": {
         "fileName": "AMSC.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/AMSC.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/AMSC.json"
       },
       "AMT": {
         "fileName": "AMT.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/AMT.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/AMT.json"
       },
       "ARHS": {
         "fileName": "ARHS.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/ARHS.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/ARHS.json"
       },
       "ARKK": {
         "fileName": "ARKK.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/ARKK.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/ARKK.json"
       },
       "ASML": {
         "fileName": "ASML.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/ASML.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/ASML.json"
       },
       "AX": {
         "fileName": "AX.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/AX.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/AX.json"
       },
       "AXP": {
         "fileName": "AXP.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/AXP.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/AXP.json"
       },
       "AZN": {
         "fileName": "AZN.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/AZN.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/AZN.json"
       },
       "CHWY": {
         "fileName": "CHWY.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/CHWY.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/CHWY.json"
       },
       "MARA": {
         "fileName": "MARA.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/MARA.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/MARA.json"
       },
       "SOUN": {
         "fileName": "SOUN.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/SOUN.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/SOUN.json"
       },
       "CTAS": {
         "fileName": "CTAS.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/CTAS.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/CTAS.json"
       },
       "IBIT": {
         "fileName": "IBIT.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/IBIT.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/IBIT.json"
       },
       "BYND": {
         "fileName": "BYND.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/BYND.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/BYND.json"
       },
       "BKSY": {
         "fileName": "BKSY.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/BKSY.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/BKSY.json"
       },
       "PINS": {
         "fileName": "PINS.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/PINS.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/PINS.json"
       },
       "CCJ": {
         "fileName": "CCJ.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/CCJ.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/CCJ.json"
       },
       "CRS": {
         "fileName": "CRS.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/CRS.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/CRS.json"
       },
       "AXON": {
         "fileName": "AXON.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/AXON.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/AXON.json"
       },
       "GEO": {
         "fileName": "GEO.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/GEO.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/GEO.json"
       },
       "EBS": {
         "fileName": "EBS.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/EBS.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/EBS.json"
       },
       "GOOG": {
         "fileName": "GOOG.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/GOOG.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/GOOG.json"
       },
       "GOLD": {
         "fileName": "GOLD.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/GOLD.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/GOLD.json"
       },
       "DKNG": {
         "fileName": "DKNG.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/DKNG.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/DKNG.json"
       },
       "MNDY": {
         "fileName": "MNDY.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/MNDY.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/MNDY.json"
       },
       "HON": {
         "fileName": "HON.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/HON.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/HON.json"
       },
       "COST": {
         "fileName": "COST.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/COST.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/COST.json"
       },
       "JPM": {
         "fileName": "JPM.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/JPM.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/JPM.json"
       },
       "FOUR": {
         "fileName": "FOUR.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/FOUR.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/FOUR.json"
       },
       "ETN": {
         "fileName": "ETN.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/ETN.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/ETN.json"
       },
       "AAON": {
         "fileName": "AAON.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/AAON.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/AAON.json"
       },
       "LAZR": {
         "fileName": "LAZR.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/LAZR.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/LAZR.json"
       },
       "FTNT": {
         "fileName": "FTNT.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/FTNT.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/FTNT.json"
       },
       "QBTS": {
         "fileName": "QBTS.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/QBTS.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/QBTS.json"
       },
       "CECO": {
         "fileName": "CECO.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/CECO.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/CECO.json"
       },
       "ORCL": {
         "fileName": "ORCL.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/ORCL.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/ORCL.json"
       },
       "INTU": {
         "fileName": "INTU.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/INTU.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/INTU.json"
       },
       "BMY": {
         "fileName": "BMY.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/BMY.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/BMY.json"
       },
       "ROAD": {
         "fileName": "ROAD.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/ROAD.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/ROAD.json"
       },
       "MBLY": {
         "fileName": "MBLY.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/MBLY.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/MBLY.json"
       },
       "PATH": {
         "fileName": "PATH.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/PATH.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/PATH.json"
       },
       "CATY": {
         "fileName": "CATY.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/CATY.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/CATY.json"
       },
       "GS": {
         "fileName": "GS.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/GS.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/GS.json"
       },
       "WFC": {
         "fileName": "WFC.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/WFC.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/WFC.json"
       },
       "V": {
         "fileName": "V.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/V.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/V.json"
       },
       "CASY": {
         "fileName": "CASY.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/CASY.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/CASY.json"
       },
       "JOBY": {
         "fileName": "JOBY.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/JOBY.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/JOBY.json"
       },
       "ANF": {
         "fileName": "ANF.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/ANF.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/ANF.json"
       },
       "CMG": {
         "fileName": "CMG.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/CMG.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/CMG.json"
       },
       "KRE": {
         "fileName": "KRE.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/KRE.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/KRE.json"
       },
       "RL": {
         "fileName": "RL.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/RL.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/RL.json"
       },
       "PH": {
         "fileName": "PH.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/PH.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/PH.json"
       },
       "RIVN": {
         "fileName": "RIVN.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/RIVN.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/RIVN.json"
       },
       "ZS": {
         "fileName": "ZS.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/ZS.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/ZS.json"
       },
       "APLD": {
         "fileName": "APLD.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/APLD.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/APLD.json"
       },
       "ALAB": {
         "fileName": "ALAB.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/ALAB.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/ALAB.json"
       },
       "MS": {
         "fileName": "MS.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/MS.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/MS.json"
       },
       "NU": {
         "fileName": "NU.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/NU.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/NU.json"
       },
       "BKNG": {
         "fileName": "BKNG.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/BKNG.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/BKNG.json"
       },
       "HD": {
         "fileName": "HD.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/HD.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/HD.json"
       },
       "PYPL": {
         "fileName": "PYPL.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/PYPL.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/PYPL.json"
       },
       "KULR": {
         "fileName": "KULR.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/KULR.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/KULR.json"
       },
       "RGTI": {
         "fileName": "RGTI.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/RGTI.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/RGTI.json"
       },
       "ZETA": {
         "fileName": "ZETA.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/ZETA.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/ZETA.json"
       },
       "CCL": {
         "fileName": "CCL.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/CCL.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/CCL.json"
       },
       "CRNT": {
         "fileName": "CRNT.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/CRNT.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/CRNT.json"
       },
       "CABA": {
         "fileName": "CABA.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/CABA.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/CABA.json"
       },
       "OPEN": {
         "fileName": "OPEN.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/OPEN.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/OPEN.json"
       },
       "WOLF": {
         "fileName": "WOLF.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/WOLF.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/WOLF.json"
       },
       "FINV": {
         "fileName": "FINV.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/FINV.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/FINV.json"
       },
       "PL": {
         "fileName": "PL.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/PL.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/PL.json"
       },
       "LMND": {
         "fileName": "LMND.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/LMND.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/LMND.json"
       },
       "MRVL": {
         "fileName": "MRVL.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/MRVL.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/MRVL.json"
       },
       "YINN": {
         "fileName": "YINN.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/YINN.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/YINN.json"
       },
       "SPOT": {
         "fileName": "SPOT.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/SPOT.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/SPOT.json"
       },
       "PSTG": {
         "fileName": "PSTG.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/PSTG.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/PSTG.json"
       },
       "S": {
         "fileName": "S.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/S.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/S.json"
       },
       "TMDX": {
         "fileName": "TMDX.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/TMDX.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/TMDX.json"
       },
       "OKTA": {
         "fileName": "OKTA.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/OKTA.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/OKTA.json"
       },
       "PANW": {
         "fileName": "PANW.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/PANW.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/PANW.json"
       },
       "PSNY": {
         "fileName": "PSNY.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/PSNY.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/PSNY.json"
       },
       "NIO": {
         "fileName": "NIO.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/NIO.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/NIO.json"
       },
       "HUT": {
         "fileName": "HUT.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/HUT.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/HUT.json"
       },
       "APP": {
         "fileName": "APP.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/APP.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/APP.json"
       },
       "NVO": {
         "fileName": "NVO.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/NVO.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/NVO.json"
       },
       "KO": {
         "fileName": "KO.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/KO.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/KO.json"
       },
       "CNTA": {
         "fileName": "CNTA.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/CNTA.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/CNTA.json"
       },
       "ASND": {
         "fileName": "ASND.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/ASND.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/ASND.json"
       },
       "CPNG": {
         "fileName": "CPNG.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/CPNG.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/CPNG.json"
       },
       "GMED": {
         "fileName": "GMED.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/GMED.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/GMED.json"
       },
       "ULTA": {
         "fileName": "ULTA.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/ULTA.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/ULTA.json"
       },
       "LULU": {
         "fileName": "LULU.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/LULU.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/LULU.json"
       },
       "CLOV": {
         "fileName": "CLOV.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/CLOV.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/CLOV.json"
       },
       "SE": {
         "fileName": "SE.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/SE.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/SE.json"
       },
       "UEC": {
         "fileName": "UEC.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/UEC.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/UEC.json"
       },
       "BTBT": {
         "fileName": "BTBT.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/BTBT.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/BTBT.json"
       },
       "BTC": {
         "fileName": "BTC.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/BTC.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/BTC.json"
       },
       "OPTT": {
         "fileName": "OPTT.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/OPTT.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/OPTT.json"
       },
       "APPN": {
         "fileName": "APPN.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/APPN.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/APPN.json"
       },
       "PDD": {
         "fileName": "PDD.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/PDD.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/PDD.json"
       },
       "NVMI": {
         "fileName": "NVMI.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/NVMI.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/NVMI.json"
       },
       "SATL": {
         "fileName": "SATL.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/SATL.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/SATL.json"
       },
       "TIGR": {
         "fileName": "TIGR.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/TIGR.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/TIGR.json"
       },
       "IREN": {
         "fileName": "IREN.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/IREN.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/IREN.json"
       },
       "CHRS": {
         "fileName": "CHRS.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/CHRS.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/CHRS.json"
       },
       "TQQQ": {
         "fileName": "TQQQ.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/TQQQ.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/TQQQ.json"
       },
       "COHR": {
         "fileName": "COHR.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/COHR.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/COHR.json"
       },
       "JD": {
         "fileName": "JD.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/JD.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/JD.json"
       },
       "NVTS": {
         "fileName": "NVTS.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/NVTS.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/NVTS.json"
       },
       "TCOM": {
         "fileName": "TCOM.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/TCOM.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/TCOM.json"
       },
       "NNE": {
         "fileName": "NNE.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/NNE.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/NNE.json"
       },
       "CAVA": {
         "fileName": "CAVA.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/CAVA.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/CAVA.json"
       },
       "CELH": {
         "fileName": "CELH.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/CELH.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/CELH.json"
       },
       "SPX": {
         "fileName": "SPX.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/SPX.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/SPX.json"
       },
       "NDX": {
         "fileName": "NDX.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/NDX.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/NDX.json"
       },
       "DHR": {
         "fileName": "DHR.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/DHR.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/DHR.json"
       },
       "CIBR": {
         "fileName": "CIBR.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/CIBR.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/CIBR.json"
       },
       "VLTO": {
         "fileName": "VLTO.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/VLTO.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/VLTO.json"
       },
       "CARR": {
         "fileName": "CARR.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/CARR.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/CARR.json"
       },
       "VRAR": {
         "fileName": "VRAR.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/VRAR.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/VRAR.json"
       },
       "LITE": {
         "fileName": "LITE.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/LITE.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/LITE.json"
       },
       "SMTC": {
         "fileName": "SMTC.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/SMTC.json"
-      },
-      "NBIS": {
-        "fileName": "NBIS.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/NBIS.json"
-      },
-      "KTOS": {
-        "fileName": "KTOS.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/KTOS.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/SMTC.json"
       },
       "IRDM": {
         "fileName": "IRDM.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/IRDM.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/IRDM.json"
       },
       "ISRG": {
         "fileName": "ISRG.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/ISRG.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/ISRG.json"
       },
       "MVST": {
         "fileName": "MVST.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/MVST.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/MVST.json"
       },
       "VUZI": {
         "fileName": "VUZI.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/VUZI.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/VUZI.json"
       },
       "RCAT": {
         "fileName": "RCAT.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/RCAT.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/RCAT.json"
       },
       "BBAI": {
         "fileName": "BBAI.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/BBAI.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/BBAI.json"
       },
       "EVEX": {
         "fileName": "EVEX.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/EVEX.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/EVEX.json"
       },
       "CRDO": {
         "fileName": "CRDO.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/CRDO.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/CRDO.json"
       },
       "TSAT": {
         "fileName": "TSAT.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/TSAT.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/TSAT.json"
       },
       "AUR": {
         "fileName": "AUR.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/AUR.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/AUR.json"
       },
       "POET": {
         "fileName": "POET.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/POET.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/POET.json"
       },
       "EOSE": {
         "fileName": "EOSE.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/EOSE.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/EOSE.json"
       },
       "SERV": {
         "fileName": "SERV.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/SERV.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/SERV.json"
       },
       "BLDE": {
         "fileName": "BLDE.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/BLDE.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/BLDE.json"
       },
       "RDW": {
         "fileName": "RDW.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/RDW.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/RDW.json"
       },
       "NNOX": {
         "fileName": "NNOX.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/NNOX.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/NNOX.json"
       },
       "ODD": {
         "fileName": "ODD.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/ODD.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/ODD.json"
       },
       "RXRX": {
         "fileName": "RXRX.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/RXRX.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/RXRX.json"
       },
       "GSAT": {
         "fileName": "GSAT.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/GSAT.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/GSAT.json"
       },
       "VEEV": {
         "fileName": "VEEV.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/VEEV.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/VEEV.json"
       },
       "MTSI": {
         "fileName": "MTSI.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/MTSI.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/MTSI.json"
       },
       "IOT": {
         "fileName": "IOT.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/IOT.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/IOT.json"
       },
       "PRCT": {
         "fileName": "PRCT.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/PRCT.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/PRCT.json"
       },
       "AGX": {
         "fileName": "AGX.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/AGX.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/AGX.json"
       },
       "GSK": {
         "fileName": "GSK.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/GSK.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/GSK.json"
       },
       "IQ": {
         "fileName": "IQ.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/IQ.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/IQ.json"
       },
       "SENS": {
         "fileName": "SENS.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/SENS.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/SENS.json"
       },
       "QUBT": {
         "fileName": "QUBT.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/QUBT.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/QUBT.json"
       },
       "TEM": {
         "fileName": "TEM.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/TEM.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/TEM.json"
       },
       "GRRR": {
         "fileName": "GRRR.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/GRRR.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/GRRR.json"
       },
       "ROKU": {
         "fileName": "ROKU.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/ROKU.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/ROKU.json"
       },
       "ITB": {
         "fileName": "ITB.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/ITB.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/ITB.json"
       },
       "LMT": {
         "fileName": "LMT.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/LMT.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/LMT.json"
       },
       "VRT": {
         "fileName": "VRT.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/VRT.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/VRT.json"
       },
       "BIRK": {
         "fileName": "BIRK.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/BIRK.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/BIRK.json"
       },
       "VIX": {
         "fileName": "VIX.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/VIX.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/VIX.json"
       },
       "MAGS": {
         "fileName": "MAGS.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/MAGS.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/MAGS.json"
       },
       "AISP": {
         "fileName": "AISP.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/AISP.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/AISP.json"
       },
       "UVXY": {
         "fileName": "UVXY.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/UVXY.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/UVXY.json"
       },
       "SVXY": {
         "fileName": "SVXY.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/SVXY.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/SVXY.json"
       },
       "BYRN": {
         "fileName": "BYRN.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/BYRN.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/BYRN.json"
       },
       "LLY": {
         "fileName": "LLY.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/LLY.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/LLY.json"
       },
       "ANET": {
         "fileName": "ANET.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/ANET.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/ANET.json"
       },
       "FIX": {
         "fileName": "FIX.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/FIX.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/FIX.json"
       },
       "SCHD": {
         "fileName": "SCHD.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/SCHD.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/SCHD.json"
       },
       "RKT": {
         "fileName": "RKT.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/RKT.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/RKT.json"
       },
       "CLS": {
         "fileName": "CLS.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/CLS.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/CLS.json"
       },
       "KODK": {
         "fileName": "KODK.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/KODK.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/KODK.json"
       },
       "SPXL": {
         "fileName": "SPXL.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/SPXL.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/SPXL.json"
       },
       "UPRO": {
         "fileName": "UPRO.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/UPRO.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/UPRO.json"
       },
       "UAL": {
         "fileName": "UAL.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/UAL.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/UAL.json"
       },
       "RTX": {
         "fileName": "RTX.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/RTX.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/RTX.json"
       },
       "SES": {
         "fileName": "SES.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/SES.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/SES.json"
       },
       "INVZ": {
         "fileName": "INVZ.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/INVZ.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/INVZ.json"
       },
       "MELI": {
         "fileName": "MELI.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/MELI.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/MELI.json"
       },
       "FF": {
         "fileName": "FF.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/FF.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/FF.json"
       },
       "LODE": {
         "fileName": "LODE.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/LODE.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/LODE.json"
       },
       "UAA": {
         "fileName": "UAA.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/UAA.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/UAA.json"
       },
       "SMHI": {
         "fileName": "SMHI.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/SMHI.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/SMHI.json"
       },
       "PAYO": {
         "fileName": "PAYO.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/PAYO.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/PAYO.json"
       },
       "PLAY": {
         "fileName": "PLAY.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/PLAY.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/PLAY.json"
       },
       "WBA": {
         "fileName": "WBA.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/WBA.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/WBA.json"
       },
       "ATAI": {
         "fileName": "ATAI.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/ATAI.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/ATAI.json"
       },
       "LYFT": {
         "fileName": "LYFT.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/LYFT.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/LYFT.json"
       },
       "SLV": {
         "fileName": "SLV.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/SLV.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/SLV.json"
       },
       "KMI": {
         "fileName": "KMI.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/KMI.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/KMI.json"
       },
       "AEVA": {
         "fileName": "AEVA.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/AEVA.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/AEVA.json"
       },
       "INSW": {
         "fileName": "INSW.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/INSW.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/INSW.json"
       },
       "MNMD": {
         "fileName": "MNMD.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/MNMD.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/MNMD.json"
       },
       "NGG": {
         "fileName": "NGG.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/NGG.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/NGG.json"
       },
       "FUBO": {
         "fileName": "FUBO.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/FUBO.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/FUBO.json"
       },
       "MRNA": {
         "fileName": "MRNA.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/MRNA.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/MRNA.json"
       },
       "PACB": {
         "fileName": "PACB.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/PACB.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/PACB.json"
       },
       "PGNY": {
         "fileName": "PGNY.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/PGNY.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/PGNY.json"
       },
       "VTI": {
         "fileName": "VTI.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/VTI.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/VTI.json"
       },
       "VGT": {
         "fileName": "VGT.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/VGT.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/VGT.json"
       },
       "ON": {
         "fileName": "ON.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/ON.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/ON.json"
       },
       "C": {
         "fileName": "C.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/C.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/C.json"
       },
       "CXM": {
         "fileName": "CXM.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/CXM.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/CXM.json"
       },
       "CRNC": {
         "fileName": "CRNC.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/CRNC.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/CRNC.json"
       },
       "LPSN": {
         "fileName": "LPSN.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/LPSN.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/LPSN.json"
       },
       "VERI": {
         "fileName": "VERI.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/VERI.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/VERI.json"
       },
       "CAG": {
         "fileName": "CAG.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/CAG.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/CAG.json"
       },
       "NEM": {
         "fileName": "NEM.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/NEM.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/NEM.json"
       },
       "LOVE": {
         "fileName": "LOVE.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/LOVE.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/LOVE.json"
       },
       "UAMY": {
         "fileName": "UAMY.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/UAMY.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/UAMY.json"
       },
       "ONDS": {
         "fileName": "ONDS.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/ONDS.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/ONDS.json"
       },
       "OXY": {
         "fileName": "OXY.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/OXY.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/OXY.json"
       },
       "LQDT": {
         "fileName": "LQDT.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/LQDT.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/LQDT.json"
       },
       "XOM": {
         "fileName": "XOM.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/XOM.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/XOM.json"
       },
       "ACI": {
         "fileName": "ACI.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/ACI.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/ACI.json"
       },
       "FARO": {
         "fileName": "FARO.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/FARO.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/FARO.json"
       },
       "SPXU": {
         "fileName": "SPXU.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/SPXU.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/SPXU.json"
       },
       "BRZE": {
         "fileName": "BRZE.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/BRZE.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/BRZE.json"
       },
       "VCEL": {
         "fileName": "VCEL.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/VCEL.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/VCEL.json"
       },
       "CMPS": {
         "fileName": "CMPS.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/CMPS.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/CMPS.json"
       },
       "SIRI": {
         "fileName": "SIRI.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/SIRI.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/SIRI.json"
       },
       "MRX": {
         "fileName": "MRX.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/MRX.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/MRX.json"
       },
       "AR": {
         "fileName": "AR.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/AR.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/AR.json"
       },
       "PHUN": {
         "fileName": "PHUN.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/PHUN.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/PHUN.json"
       },
       "WWD": {
         "fileName": "WWD.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/WWD.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/WWD.json"
       },
       "ETSY": {
         "fileName": "ETSY.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/ETSY.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/ETSY.json"
       },
       "RUN": {
         "fileName": "RUN.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/RUN.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/RUN.json"
       },
       "WEN": {
         "fileName": "WEN.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/WEN.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/WEN.json"
       },
       "PGRE": {
         "fileName": "PGRE.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/PGRE.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/PGRE.json"
       },
       "RDFN": {
         "fileName": "RDFN.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/RDFN.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/RDFN.json"
       },
       "MGNI": {
         "fileName": "MGNI.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/MGNI.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/MGNI.json"
       },
       "M": {
         "fileName": "M.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/M.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/M.json"
       },
       "ARBE": {
         "fileName": "ARBE.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/ARBE.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/ARBE.json"
       },
       "QSI": {
         "fileName": "QSI.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/QSI.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/QSI.json"
       },
       "ENVX": {
         "fileName": "ENVX.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/ENVX.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/ENVX.json"
       },
       "FNGS": {
         "fileName": "FNGS.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/FNGS.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/FNGS.json"
       },
       "VFC": {
         "fileName": "VFC.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/VFC.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/VFC.json"
       },
       "NXPI": {
         "fileName": "NXPI.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/NXPI.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/NXPI.json"
       },
       "NUE": {
         "fileName": "NUE.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/NUE.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/NUE.json"
       },
       "VST": {
         "fileName": "VST.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/VST.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/VST.json"
       },
       "TLN": {
         "fileName": "TLN.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/TLN.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/TLN.json"
       },
       "NOTE": {
         "fileName": "NOTE.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/NOTE.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/NOTE.json"
       },
       "TKO": {
         "fileName": "TKO.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/TKO.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/TKO.json"
       },
       "HUBS": {
         "fileName": "HUBS.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/HUBS.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/HUBS.json"
       },
       "NOW": {
         "fileName": "NOW.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/NOW.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/NOW.json"
       },
       "JBLU": {
         "fileName": "JBLU.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/JBLU.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/JBLU.json"
       },
       "AKAM": {
         "fileName": "AKAM.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/AKAM.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/AKAM.json"
       },
       "ENPH": {
         "fileName": "ENPH.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/ENPH.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/ENPH.json"
       },
       "NET": {
         "fileName": "NET.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/NET.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/NET.json"
       },
       "SYM": {
         "fileName": "SYM.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/SYM.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/SYM.json"
       },
       "TTD": {
         "fileName": "TTD.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/TTD.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/TTD.json"
       },
       "NVDS": {
         "fileName": "NVDS.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/NVDS.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/NVDS.json"
       },
       "FCX": {
         "fileName": "FCX.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/FCX.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/FCX.json"
       },
       "RBRK": {
         "fileName": "RBRK.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/RBRK.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/RBRK.json"
       },
       "WSM": {
         "fileName": "WSM.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/WSM.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/WSM.json"
       },
       "LVS": {
         "fileName": "LVS.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/LVS.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/LVS.json"
       },
       "GRAB": {
         "fileName": "GRAB.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/GRAB.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/GRAB.json"
       },
       "KDP": {
         "fileName": "KDP.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/KDP.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/KDP.json"
       },
       "LNG": {
         "fileName": "LNG.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/LNG.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/LNG.json"
       },
       "LTBR": {
         "fileName": "LTBR.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/LTBR.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/LTBR.json"
       },
       "SPIR": {
         "fileName": "SPIR.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/SPIR.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/SPIR.json"
       },
       "XYZ": {
         "fileName": "XYZ.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/XYZ.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/XYZ.json"
       },
       "IGV": {
         "fileName": "IGV.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/IGV.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/IGV.json"
       },
       "BUG": {
         "fileName": "BUG.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/BUG.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/BUG.json"
       },
       "TLS": {
         "fileName": "TLS.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/TLS.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/TLS.json"
       },
       "QQQM": {
         "fileName": "QQQM.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/QQQM.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/QQQM.json"
       },
       "TRUP": {
         "fileName": "TRUP.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/TRUP.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/TRUP.json"
       },
       "ELF": {
         "fileName": "ELF.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/ELF.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/ELF.json"
       },
       "EQT": {
         "fileName": "EQT.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/EQT.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/EQT.json"
       },
       "FLNC": {
         "fileName": "FLNC.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/FLNC.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/FLNC.json"
       },
       "PTGX": {
         "fileName": "PTGX.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/PTGX.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/PTGX.json"
       },
       "PDYN": {
         "fileName": "PDYN.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/PDYN.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/PDYN.json"
       },
       "DAL": {
         "fileName": "DAL.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/DAL.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/DAL.json"
       },
       "CRSP": {
         "fileName": "CRSP.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/CRSP.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/CRSP.json"
       },
       "KWEB": {
         "fileName": "KWEB.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/KWEB.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/KWEB.json"
       },
       "MRK": {
         "fileName": "MRK.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/MRK.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/MRK.json"
       },
       "RBBN": {
         "fileName": "RBBN.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/RBBN.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/RBBN.json"
       },
       "TEAM": {
         "fileName": "TEAM.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/TEAM.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/TEAM.json"
       },
       "CGNX": {
         "fileName": "CGNX.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/CGNX.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/CGNX.json"
       },
       "KOPN": {
         "fileName": "KOPN.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/KOPN.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/KOPN.json"
       },
       "AHR": {
         "fileName": "AHR.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/AHR.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/AHR.json"
       },
       "FEPI": {
         "fileName": "FEPI.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/FEPI.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/FEPI.json"
       },
       "HIMX": {
         "fileName": "HIMX.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/HIMX.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/HIMX.json"
       },
       "CMPO": {
         "fileName": "CMPO.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/CMPO.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/CMPO.json"
       },
       "HOG": {
         "fileName": "HOG.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/HOG.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/HOG.json"
       },
       "BCRX": {
         "fileName": "BCRX.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/BCRX.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/BCRX.json"
       },
       "RXT": {
         "fileName": "RXT.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/RXT.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/RXT.json"
       },
       "VIV": {
         "fileName": "VIV.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/VIV.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/VIV.json"
       },
       "BKD": {
         "fileName": "BKD.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/BKD.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/BKD.json"
       },
       "OSCR": {
         "fileName": "OSCR.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/OSCR.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/OSCR.json"
       },
       "QS": {
         "fileName": "QS.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/QS.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/QS.json"
       },
       "LAES": {
         "fileName": "LAES.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/LAES.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/LAES.json"
       },
       "PTC": {
         "fileName": "PTC.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/PTC.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/PTC.json"
       },
       "GLOB": {
         "fileName": "GLOB.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/GLOB.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/GLOB.json"
       },
       "DVN": {
         "fileName": "DVN.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/DVN.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/DVN.json"
       },
       "NVAX": {
         "fileName": "NVAX.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/NVAX.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/NVAX.json"
       },
       "VOO": {
         "fileName": "VOO.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/VOO.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/VOO.json"
       },
       "EGY": {
         "fileName": "EGY.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/EGY.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/EGY.json"
       },
       "BITI": {
         "fileName": "BITI.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/BITI.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/BITI.json"
       },
       "CNX": {
         "fileName": "CNX.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/CNX.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/CNX.json"
       },
       "VXX": {
         "fileName": "VXX.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/VXX.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/VXX.json"
       },
       "X": {
         "fileName": "X.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/X.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/X.json"
       },
       "JWN": {
         "fileName": "JWN.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/JWN.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/JWN.json"
       },
       "QCOM": {
         "fileName": "QCOM.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/QCOM.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/QCOM.json"
       },
       "ELEV": {
         "fileName": "ELEV.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/ELEV.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/ELEV.json"
       },
       "USO": {
         "fileName": "USO.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/USO.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/USO.json"
       },
       "SQQQ": {
         "fileName": "SQQQ.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/SQQQ.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/SQQQ.json"
       },
       "HSAI": {
         "fileName": "HSAI.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/HSAI.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/HSAI.json"
       },
       "BYD": {
         "fileName": "BYD.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/BYD.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/BYD.json"
       },
       "VNET": {
         "fileName": "VNET.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/VNET.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/VNET.json"
       },
       "WWW": {
         "fileName": "WWW.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/WWW.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/WWW.json"
       },
       "AFL": {
         "fileName": "AFL.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/AFL.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/AFL.json"
       },
       "FAZ": {
         "fileName": "FAZ.json",
-        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-15/FAZ.json"
+        "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/OPTIONS_DATA_2025-04-12/FAZ.json"
       }
     }
   }
