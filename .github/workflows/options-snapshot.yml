@@ -2,7 +2,7 @@ name: Publish snapshots
 
 on:
   workflow_run:
-    workflows: ["Publish ticker options data"]
+    workflows: ["CBOE options rolling parquet"]
     branches: [main]
     types: 
       - completed
@@ -66,19 +66,19 @@ jobs:
         uses: actions/download-artifact@v4
         with:
           name: snapshot-data
-      - name: Release
-        uses: ncipollo/release-action@v1
-        with:
-          artifacts: "temp/options-snapshots/*.png"
-          tag: ${{ env.RELEASE_NAME }}
-          commit: "main"
-          allowUpdates: "true"
-          artifactErrorsFailBuild: "true"
       # - name: Release
-      #  uses: softprops/action-gh-release@v2
+      #   uses: ncipollo/release-action@v1
       #   with:
-      #     files: "temp/options-snapshots/*.png"
-      #     tag_name: ${{ env.RELEASE_NAME }}
+      #     artifacts: "temp/options-snapshots/*.png"
+      #     tag: ${{ env.RELEASE_NAME }}
+      #     commit: "main"
+      #     allowUpdates: "true"
+      #     artifactErrorsFailBuild: "true"
+      - name: Release
+        uses: mnsrulz/action-gh-release@master
+        with:
+          files: "temp/options-snapshots/*.png"
+          tag_name: ${{ env.RELEASE_NAME }}
       - name: Commit and push changes
         run: |
           git config --global user.name "GitHub Actions"

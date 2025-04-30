@@ -6,21 +6,25 @@ import {
 import { sortBy } from "https://deno.land/std@0.224.0/collections/sort_by.ts";
 import { getQuery } from "https://deno.land/x/oak@v12.6.1/helpers.ts";
 import ky from "https://esm.sh/ky@1.2.3";
+import { stringify } from "jsr:@std/csv";
 import {
+    AvailableSnapshotDates,
     CboeOptionsRawSummary,
     getOptionsDataSummary,
     mapDataToLegacy,
     OptionsSnapshotSummary,
     OptionsSnapshotSummaryLegacy,
     searchTicker,
+    getSnapshotsAvailableForDate,
+    getSnapshotsAvailableForSymbol
 } from "./lib/data.ts";
 
 import { getPriceAtDate } from './lib/historicalPrice.ts'
-import { calculateExpsoure, ExposureDataRequest, getExposureData, getHistoricalGreeksSummaryDataFromParquet, getHistoricalOptionDataFromParquet, getHistoricalSnapshotDatesFromParquet, lastHistoricalOptionDataFromParquet, getLiveCboeOptionsPricingData, getHistoricalSnapshotDates } from "./lib/historicalOptions.ts";
+import { calculateExpsoure, ExposureDataRequest, getExposureData, getHistoricalGreeksSummaryDataFromParquet, getHistoricalOptionDataFromParquet, getHistoricalSnapshotDatesFromParquet, lastHistoricalOptionDataFromParquet, getLiveCboeOptionsPricingData, getHistoricalSnapshotDates, getHistoricalGreeksSummaryDataBySymbolFromParquet, getHistoricalGreeksAvailableExpirationsBySymbolFromParquet } from "./lib/historicalOptions.ts";
 import { getOptionsAnalytics, getOptionsChain } from "./lib/cboe.ts";
 import { getIndicatorValues } from "./lib/ta.ts";
 
-const token = Deno.env.get("ghtoken");
+const token = Deno.env.get("ghtoken") || '';
 const router = new Router();
 
 
@@ -133,6 +137,7 @@ router.get("/", (context) => {
         const items = searchTicker(q);
         context.response.body = items;
     })
+    
     .get("/symbols/:symbol/historical/snapshots", (context) => {
         const { symbol } = context.params;
         const result = Object.keys(OptionsSnapshotSummaryLegacy)
@@ -154,109 +159,6 @@ router.get("/", (context) => {
                 },
             }));
         context.response.body = { items: result };
-        context.response.type = "application/json";
-    })
-    .get("/images", async (context) => {
-        console.log(`getting image`);
-        const { dt, s } = getQuery(context);
-        if (!dt || !s) {
-            throw new Error(
-                `empty query provided. Use with ?dt=YOUR_QUERY&s=aapl`,
-            );
-        }
-
-        // console.log(`finding ${dt} in ${JSON.stringify(Object.keys(OptionsSnapshotSummaryLegacy))}`);
-        if (Object.keys(OptionsSnapshotSummaryLegacy).includes(dt)) {
-            const u =
-                OptionsSnapshotSummaryLegacy[dt].symbols[s].dex.hdAssetUrl;
-
-            console.log(`asset url found: ${u}`);
-
-            const { headers, status } = await ky.head(u, {
-                redirect: "manual",
-                throwHttpErrors: false,
-            });
-            if (status < 400) {
-                const s3Location = headers.get("location");
-                if (s3Location) {
-                    context.response.redirect(s3Location);
-                } else {
-                    throw new Error("empty s3 location received!");
-                }
-            } else {
-                throw new Error("error loading image!");
-            }
-
-            //context.response.redirect(OptionsSnapshotSummaryLegacy[dt].symbols[s].dex.hdAssetUrl);
-
-            // const {headers} = await ky.head(OptionsSnapshotSummaryLegacy[dt].symbols[s].dex.hdAssetUrl, { redirect: 'manual' });
-            // const s3Location = headers.get('location');
-            // if(s3Location) {
-            //     context.response.redirect(s3Location);
-            // }
-
-            // const data = await ky(OptionsSnapshotSummaryLegacy[dt].symbols[s].dex.hdAssetUrl).blob();
-            // context.response.body = data;
-            // context.response.type = "image/png";
-        } else {
-            // console.log(
-            // `calling endpoint: https://api.github.com/repos/5amclub/mytradingview-data/releases/tags/${
-            //     dt.substring(0, 10)
-            //     }`,
-            // );
-            const { assets } = await ky(
-                `https://api.github.com/repos/5amclub/mytradingview/releases/tags/${dt.substring(0, 10)
-                }`,
-                {
-                    headers: {
-                        Authorization: `Bearer ${token}`,
-                    },
-                },
-            ).json<{ assets: { url: string; name: string }[] }>();
-            const url = assets.find((j) => j.name == `${s.toUpperCase()}.png`)
-                ?.url;
-            if (!url) throw new Error("no asset found");
-            const data = await ky(url, {
-                headers: {
-                    Authorization: `Bearer ${token}`,
-                    Accept: "application/octet-stream",
-                },
-            }).blob();
-            context.response.body = data;
-            context.response.type = "image/png";
-        }
-    })
-    .get("/legacy/releases", async (context) => {
-        const releases = await ky(
-            `https://api.github.com/repos/5amclub/mytradingview-data/tags`,
-            {
-                headers: {
-                    Authorization: `Bearer ${token}`,
-                },
-            },
-        ).json<{ name: string }[]>();
-        context.response.body = releases.map((j) => ({ name: j.name }));
-        context.response.type = "application/json";
-    })
-    .get("/releases/symbols", async (context) => {
-        const { r } = getQuery(context);
-        const symbols: string[] = [];
-        if (Object.keys(OptionsSnapshotSummaryLegacy).includes(r)) {
-            symbols.push(
-                ...Object.keys(OptionsSnapshotSummaryLegacy[r].symbols),
-            );
-        } else {
-            const { assets } = await ky(
-                `https://api.github.com/repos/5amclub/mytradingview-data/releases/tags/${r}`,
-                {
-                    headers: {
-                        Authorization: `Bearer ${token}`,
-                    },
-                },
-            ).json<{ assets: { url: string; name: string }[] }>();
-            symbols.push(...assets.map((j) => j.name.split(".").at(0) || ""));
-        }
-        context.response.body = symbols.sort().map((j) => ({ name: j }));
         context.response.type = "application/json";
     })
     .get("/beta/historical/cboesummary", (context) => {        //make the resource name more appropriate
@@ -293,23 +195,17 @@ router.get("/", (context) => {
         context.response.body = await getExposureData(symbol, dt);
         context.response.type = "application/json";
     })
-    .get("/beta/reports/optionsgreekssummary", async (context) => {
-        const { dt, dte } = getQuery(context);
-        if (!dt) throw new Error("dt parameter is missing!");
-        context.response.body = await getHistoricalGreeksSummaryDataFromParquet(dt, dte);
-        context.response.type = "application/json";
-    })
-    .get("/beta/symbols/:symbol/exposure", async (context) => {
+    .get("/beta/symbols/:symbol/exposure", async (context) => {             //remove it
         const { symbol } = context.params;
         context.response.body = await getExposureData(symbol, 'LIVE');
         context.response.type = "application/json";
     })
-    .get("/beta/symbols/:symbol/optionspricing", async (context) => {
+    .get("/beta/symbols/:symbol/optionspricing", async (context) => {   //remove it
         const { symbol } = context.params;
         context.response.body = await getLiveCboeOptionsPricingData(symbol);
         context.response.type = "application/json";
     })
-    .post("/beta/tools/exposure", async (context) => {
+    .post("/beta/tools/exposure", async (context) => {                   //remove it
         if (!context.request.hasBody) {
             context.throw(415);
         }
@@ -317,7 +213,13 @@ router.get("/", (context) => {
         context.response.body = calculateExpsoure(spotPrice, data, spotDate);
         context.response.type = "application/json";
     })
-    .get("/symbols/:symbol/indicators", async (context) => {
+    .get("/api/symbols", (context) => {
+        //api/symbols/search?q=t
+        const { q } = getQuery(context);
+        const items = searchTicker(q);
+        context.response.body = items;
+    })
+    .get("/api/stocks/:symbol/indicators", async (context) => {
         const { symbol } = context.params;
         const { q } = getQuery(context);
         const indicators = q.split(',');
@@ -325,8 +227,78 @@ router.get("/", (context) => {
         context.response.body = await getIndicatorValues(symbol, indicators)
         context.response.type = "application/json";
     })
+    .post("/api/options/exposure/calculate", async (context) => {
+        if (!context.request.hasBody) {
+            context.throw(415);
+        }
+        const { data, spotPrice, spotDate } = await context.request.body().value as ExposureDataRequest;
+        context.response.body = calculateExpsoure(spotPrice, data, spotDate);
+        context.response.type = "application/json";
+    })
     .get("/api/options/exposures/dates", async (context) => {
         context.response.body = await getHistoricalSnapshotDates();
+        context.response.type = "application/json";
+    })
+    .get("/api/options/exposures/snapshot-dates", (context) => {
+        context.response.body = AvailableSnapshotDates;
+        context.response.type = "application/json";
+    })
+    .get("/api/options/exposures/snapshots", (context) => {
+        const { dt } = getQuery(context);
+        if (!dt) throw new Error("dt parameter is missing!");
+        const results = getSnapshotsAvailableForDate(dt);
+        context.response.body = sortBy(results, (it) => it.symbol);
+        context.response.type = "application/json";
+    })
+    .get("/api/options/report/greeks", async (context) => {
+        const { dt, dte } = getQuery(context);
+        if (!dt) throw new Error("dt parameter is missing!");
+        context.response.body = await getHistoricalGreeksSummaryDataFromParquet(dt, dte);
+        context.response.type = "application/json";
+    })
+    .get("/api/options/report/greeks.txt", async (context) => {
+        const { dt, dte } = getQuery(context);        
+        const result = await getHistoricalGreeksSummaryDataFromParquet(dt, dte);
+        if(result.length == 0) throw new Error("No data found for the given date range");
+        context.response.body = stringify(result, {columns: Object.keys(result.at(0) || {})});
+        context.response.type = "text/plain";
+    })
+    .get("/api/options/:symbol/exposure", async (context) => {
+        const { symbol } = context.params;
+        context.response.body = await getExposureData(symbol, 'LIVE');
+        context.response.type = "application/json";
+    })
+    .get("/api/options/:symbol/exposure/historical-dates", async (context) => {
+        const { symbol } = context.params;
+        context.response.body = await getHistoricalSnapshotDatesFromParquet(symbol);
+        context.response.type = "application/json";
+    })
+    .get("/api/options/:symbol/exposure/historical", async (context) => {
+        const { symbol } = context.params;
+        const { dt } = getQuery(context);
+        if (!dt) throw new Error("dt parameter is missing!");
+        context.response.body = await getExposureData(symbol, dt);
+        context.response.type = "application/json";
+    })
+    .get("/api/options/:symbol/pricing", async (context) => {
+        const { symbol } = context.params;
+        context.response.body = await getLiveCboeOptionsPricingData(symbol);
+        context.response.type = "application/json";
+    })
+    .get("/api/options/:symbol/exposures/snapshots", (context) => {
+        const { symbol } = context.params;
+        const results = getSnapshotsAvailableForSymbol(symbol);
+        context.response.body = sortBy(results, (it) => it.date, { order: "desc" });
+        context.response.type = "application/json";
+    })
+    .get("/api/options/:symbol/report/greeks", async (context) => {
+        const { symbol } = context.params;
+        context.response.body = await getHistoricalGreeksSummaryDataBySymbolFromParquet(symbol);
+        context.response.type = "application/json";
+    })
+    .get("/api/options/:symbol/report/greeks/expirations", async (context) => {
+        const { symbol } = context.params;
+        context.response.body = await getHistoricalGreeksAvailableExpirationsBySymbolFromParquet(symbol);
         context.response.type = "application/json";
     });
 
