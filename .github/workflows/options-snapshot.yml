@@ -75,7 +75,7 @@ jobs:
       #     allowUpdates: "true"
       #     artifactErrorsFailBuild: "true"
       - name: Release
-        uses: 5amclub/action-gh-release@master
+        uses: mnsrulz/action-gh-release@master
         with:
           files: "temp/options-snapshots/*.png"
           tag_name: ${{ env.RELEASE_NAME }}
