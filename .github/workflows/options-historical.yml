@@ -3,7 +3,7 @@ name: Publish ticker options data
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 12 * * 1-6'
+    - cron: '0 10 * * 1-6'
 
 permissions:
   contents: write
@@ -64,7 +64,7 @@ jobs:
       #     allowUpdates: "true"
       #     artifactErrorsFailBuild: "true"
       - name: Release
-        uses: softprops/action-gh-release@v2
+        uses: mnsrulz/action-gh-release@master
         with:
           files: "temp/options-historical/*.json"
           tag_name: ${{ env.RELEASE_NAME }}

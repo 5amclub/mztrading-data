@@ -46,6 +46,7 @@ jobs:
           if-no-files-found: error
           path: |
             ${{ github.workspace}}/temp/*.parquet
+            ${{ github.workspace}}/temp/*.csv
             ${{ github.workspace}}/data/cboe-options-rolling.json            
   release-cboe-rolling-data:
     runs-on: ubuntu-latest
@@ -71,9 +72,9 @@ jobs:
       #     allowUpdates: "true"
       #     artifactErrorsFailBuild: "true"
       - name: Release
-        uses: softprops/action-gh-release@v2
+        uses: mnsrulz/action-gh-release@master
         with:
-          files: "temp/*.parquet"
+          files: "temp/*.*"
           tag_name: ${{ env.RELEASE_NAME }}
       - name: Commit and push changes
         run: |
