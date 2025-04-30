@@ -64,7 +64,7 @@ jobs:
       #     allowUpdates: "true"
       #     artifactErrorsFailBuild: "true"
       - name: Release
-        uses: mnsrulz/action-gh-release@master
+        uses: 5amclub/action-gh-release@master
         with:
           files: "temp/options-historical/*.json"
           tag_name: ${{ env.RELEASE_NAME }}
