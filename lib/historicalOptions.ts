@@ -1,6 +1,6 @@
 
 // @deno-types="https://esm.sh/v135/@duckdb/duckdb-wasm@1.28.0/dist/duckdb-browser-blocking.d.ts"
-import { createDuckDB, getJsDelivrBundles, ConsoleLogger, DEFAULT_RUNTIME } from 'https://cdn.jsdelivr.net/npm/@duckdb/duckdb-wasm@1.28.0/dist/duckdb-browser-blocking.mjs/+esm';
+import { createDuckDB, getJsDelivrBundles, ConsoleLogger, DEFAULT_RUNTIME, DuckDBBindings } from 'https://cdn.jsdelivr.net/npm/@duckdb/duckdb-wasm@1.28.0/dist/duckdb-browser-blocking.mjs/+esm';
 
 import optionsRollingSummary from "./../data/cboe-options-rolling.json" with {
     type: "json",
@@ -13,7 +13,7 @@ const logger = new ConsoleLogger();
 const JSDELIVR_BUNDLES = getJsDelivrBundles();
 
 const initialize = async () => {
-    const { assetUrl, name } = optionsRollingSummary;
+    const { assetUrl, name, stockUrl } = optionsRollingSummary;
     // const ds = 'https://github.com/5amclub/mztrading-data/releases/download/archives/output_test_all.parquet';
 
     //HTTP paths are not supported due to xhr not available in deno.
@@ -22,15 +22,19 @@ const initialize = async () => {
     console.log(`initializing duckdb with ${assetUrl} and name: ${name}`);
     const db = await createDuckDB(JSDELIVR_BUNDLES, logger, DEFAULT_RUNTIME);
     await db.instantiate(() => { });
-    const arrayBuffer = await fetch(assetUrl)    //let's initialize the data set in memory
+    const optionsDataBuffer = await fetch(assetUrl)    //let's initialize the data set in memory
         .then(r => r.arrayBuffer());
-    db.registerFileBuffer('db.parquet', new Uint8Array(arrayBuffer));
+    const stocksDataBuffer = await fetch(stockUrl)    //let's initialize the data set in memory
+        .then(r => r.arrayBuffer());
+    db.registerFileBuffer('db.parquet', new Uint8Array(optionsDataBuffer));
+    db.registerFileBuffer('stocks.parquet', new Uint8Array(stocksDataBuffer));
     return db;
 }
 
-const dbPromise = initialize();
+let dbPromise: Promise<DuckDBBindings>;
 
 export const getConnection = async () => {
+    if (dbPromise == null) dbPromise = initialize();
     const dbPromiseVal = await dbPromise;
     return dbPromiseVal.connect();
 }
@@ -58,33 +62,81 @@ export const getHistoricalOptionDataFromParquet = async (symbol: string, dt: str
     return arrowResult.readAll().flatMap(k => k.toArray().map((row) => row.toJSON())) as { expiration: string, delta: number, gamma: number, option_type: 'C' | 'P', strike: string, open_interest: number, volume: number }[];
 }
 
-export const getHistoricalGreeksSummaryDataFromParquet = async (dt: string, dte: number | undefined) => {
+export const getHistoricalGreeksSummaryDataFromParquet = async (dt: string | undefined, dte: number | undefined) => {
     const conn = await getConnection();
-    const dteFilterExpression = dte ? `AND expiration < date_add(dt, INTERVAL ${dte} DAYS)` : '';  //revisit it to get clarity on adding/subtracting days
+    const dtFilterExpression = dt ? `AND O.dt = '${dt}'` : '';
+    const dteFilterExpression = dte ? `AND expiration < date_add(O.dt, INTERVAL ${dte} DAYS)` : '';  //revisit it to get clarity on adding/subtracting days
     const arrowResult = await conn.send(`
             SELECT
-                option_symbol,
-                round(SUM(IF(option_type = 'C', open_interest * delta, 0))) as call_delta,
-                round(SUM(IF(option_type = 'P', open_interest * abs(delta), 0))) as put_delta,
-                round(SUM(IF(option_type = 'C', open_interest * gamma, 0))) as call_gamma,
-                round(SUM(IF(option_type = 'P', open_interest * gamma, 0))) as put_gamma,
+                CAST(O.dt as STRING) as dt,
+                round(CAST(P.close as double), 2) as price,
+                P.symbol,
+                round(SUM(IF(option_type = 'C', open_interest * delta * P.close, 0))) as call_delta,
+                round(SUM(IF(option_type = 'P', open_interest * abs(delta) * P.close, 0))) as put_delta,
+                round(SUM(IF(option_type = 'C', open_interest * gamma * P.close, 0))) as call_gamma,
+                round(SUM(IF(option_type = 'P', open_interest * gamma * P.close, 0))) as put_gamma,
                 round(SUM(IF(option_type = 'C', open_interest, 0))) as call_oi,
                 round(SUM(IF(option_type = 'P', open_interest, 0))) as put_oi,
                 round(SUM(IF(option_type = 'C', volume, 0))) as call_volume,
                 round(SUM(IF(option_type = 'P', volume, 0))) as put_volume,
-                call_delta/put_delta as call_put_dex_ratio,
-                call_gamma-put_gamma as net_gamma,
-                call_oi/put_oi as call_put_oi_ratio,
-                call_volume/put_volume as call_put_volume_ratio
-            FROM 'db.parquet' 
-            WHERE dt = '${dt}'
+                call_gamma - put_gamma as net_gamma,
+                IF(call_delta = 0 OR put_delta = 0, 0, round(call_delta/put_delta, 2)) as call_put_dex_ratio,
+                IF(call_oi=0 OR put_oi = 0, 0, round(call_oi/put_oi, 2)) as call_put_oi_ratio,
+                IF(call_volume = 0 or put_volume = 0, 0, round(call_volume/put_volume, 2)) as call_put_volume_ratio
+            FROM 'db.parquet' O
+            JOIN 'stocks.parquet' P ON O.dt = P.dt AND O.option_symbol = P.symbol
+            WHERE 1 = 1
+            ${dtFilterExpression}
             ${dteFilterExpression}
-            GROUP BY option_symbol
+            GROUP BY O.dt, P.symbol, P.close
         `);
     return arrowResult.readAll().flatMap(k => k.toArray().map((row) => row.toJSON())) as {
-        option_symbol: string, call_delta: number, put_delta: number, call_gamma: number, put_gamma: number, call_oi: number,
+        symbol: string, call_delta: number, put_delta: number, call_gamma: number, put_gamma: number, call_oi: number,
         put_oi: number, call_volume: number, put_volume: number, call_put_dex_ratio: number, net_gamma: number, call_put_oi_ratio: number, call_put_volume_ratio: number
     }[];
+}
+
+export const getHistoricalGreeksSummaryDataBySymbolFromParquet = async (symbol: string) => {
+    const conn = await getConnection();
+    // const dteFilterExpression =  dte ? `AND expiration < date_add(dt, INTERVAL ${dte} DAYS)` : '';  //revisit it to get clarity on adding/subtracting days
+    const arrowResult = await conn.send(`
+            SELECT
+                CAST(O.dt as STRING) as dt,
+                round(CAST(P.close as double), 2) as price,
+                round(SUM(IF(option_type = 'C', open_interest * delta * P.close, 0))) as call_delta,
+                round(SUM(IF(option_type = 'P', open_interest * abs(delta) * P.close, 0))) as put_delta,
+                round(SUM(IF(option_type = 'C', open_interest * gamma * P.close, 0))) as call_gamma,
+                round(SUM(IF(option_type = 'P', open_interest * gamma * P.close, 0))) as put_gamma,
+                round(SUM(IF(option_type = 'C', open_interest, 0))) as call_oi,
+                round(SUM(IF(option_type = 'P', open_interest, 0))) as put_oi,
+                round(SUM(IF(option_type = 'C', volume, 0))) as call_volume,
+                round(SUM(IF(option_type = 'P', volume, 0))) as put_volume,
+                call_gamma - put_gamma as net_gamma,
+                IF(call_delta = 0 OR put_delta = 0, 0, round(call_delta/put_delta, 2)) as call_put_dex_ratio,
+                IF(call_oi=0 OR put_oi = 0, 0, round(call_oi/put_oi, 2)) as call_put_oi_ratio,
+                IF(call_volume = 0 or put_volume = 0, 0, round(call_volume/put_volume, 2)) as call_put_volume_ratio
+            FROM 'db.parquet' O
+            JOIN 'stocks.parquet' P ON O.dt = P.dt AND O.option_symbol = P.symbol
+            WHERE option_symbol = '${symbol}'
+            GROUP BY O.dt, P.close
+            ORDER BY 1
+        `);
+    return arrowResult.readAll().flatMap(k => k.toArray().map((row) => row.toJSON())) as {
+        dt: string, price: number, call_delta: number, put_delta: number, call_gamma: number, put_gamma: number, call_oi: number,
+        put_oi: number, call_volume: number, put_volume: number, call_put_dex_ratio: number, net_gamma: number, 
+        call_put_oi_ratio: number, call_put_volume_ratio: number
+    }[];
+}
+
+export const getHistoricalGreeksAvailableExpirationsBySymbolFromParquet = async (symbol: string) => {
+    const conn = await getConnection();
+    const arrowResult = await conn.send(`
+            SELECT
+                DISTINCT CAST(expiration as STRING) as expiration
+            FROM 'db.parquet'
+            WHERE option_symbol = '${symbol}'
+        `);
+    return arrowResult.readAll().flatMap(k => k.toArray().map((row) => row.toJSON())) as { expiration: string }[];
 }
 
 export const lastHistoricalOptionDataFromParquet = () => {
