@@ -1,8 +1,8 @@
 {
-    "name": "CBOE_ROLLING_2025-06-13-11-15-36",
-    "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/CBOE_ROLLING_2025-06-13-11-15-36/options_cboe_rolling_30.parquet",
-    "stockUrl": "https://github.com/5amclub/mztrading-data/releases/download/CBOE_ROLLING_2025-06-13-11-15-36/stocks_cboe_rolling_30.parquet",
-    "greeksReportCsv": "https://github.com/5amclub/mztrading-data/releases/download/CBOE_ROLLING_2025-06-13-11-15-36/all_symbols_summary_report.csv",
+    "name": "CBOE_ROLLING_2025-06-14-11-15-06",
+    "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/CBOE_ROLLING_2025-06-14-11-15-06/options_cboe_rolling_30.parquet",
+    "stockUrl": "https://github.com/5amclub/mztrading-data/releases/download/CBOE_ROLLING_2025-06-14-11-15-06/stocks_cboe_rolling_30.parquet",
+    "greeksReportCsv": "https://github.com/5amclub/mztrading-data/releases/download/CBOE_ROLLING_2025-06-14-11-15-06/all_symbols_summary_report.csv",
     "symbolsSummary": [
         {
             "symbol": "FLR",
