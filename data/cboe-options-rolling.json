@@ -1,634 +1,10 @@
 {
-    "name": "CBOE_ROLLING_2025-07-10-11-15-36",
-    "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/CBOE_ROLLING_2025-07-10-11-15-36/options_cboe_rolling_30.parquet",
-    "stockUrl": "https://github.com/5amclub/mztrading-data/releases/download/CBOE_ROLLING_2025-07-10-11-15-36/stocks_cboe_rolling_30.parquet",
-    "greeksReportCsv": "https://github.com/5amclub/mztrading-data/releases/download/CBOE_ROLLING_2025-07-10-11-15-36/all_symbols_summary_report.csv",
+    "name": "CBOE_ROLLING_2025-07-11-11-15-49",
+    "assetUrl": "https://github.com/5amclub/mztrading-data/releases/download/CBOE_ROLLING_2025-07-11-11-15-49/options_cboe_rolling_30.parquet",
+    "stockUrl": "https://github.com/5amclub/mztrading-data/releases/download/CBOE_ROLLING_2025-07-11-11-15-49/stocks_cboe_rolling_30.parquet",
+    "greeksReportCsv": "https://github.com/5amclub/mztrading-data/releases/download/CBOE_ROLLING_2025-07-11-11-15-49/all_symbols_summary_report.csv",
     "symbolsSummary": [
         {
-            "symbol": "FLR",
-            "dt": "2025-06-06"
-        },
-        {
-            "symbol": "AMD",
-            "dt": "2025-06-06"
-        },
-        {
-            "symbol": "AI",
-            "dt": "2025-06-06"
-        },
-        {
-            "symbol": "AMZN",
-            "dt": "2025-06-06"
-        },
-        {
-            "symbol": "BA",
-            "dt": "2025-06-06"
-        },
-        {
-            "symbol": "BABA",
-            "dt": "2025-06-06"
-        },
-        {
-            "symbol": "BBY",
-            "dt": "2025-06-06"
-        },
-        {
-            "symbol": "BIDU",
-            "dt": "2025-06-06"
-        },
-        {
-            "symbol": "BITX",
-            "dt": "2025-06-06"
-        },
-        {
-            "symbol": "CMCSA",
-            "dt": "2025-06-06"
-        },
-        {
-            "symbol": "DASH",
-            "dt": "2025-06-06"
-        },
-        {
-            "symbol": "GOOGL",
-            "dt": "2025-06-06"
-        },
-        {
-            "symbol": "HOOD",
-            "dt": "2025-06-06"
-        },
-        {
-            "symbol": "KR",
-            "dt": "2025-06-06"
-        },
-        {
-            "symbol": "MSFT",
-            "dt": "2025-06-06"
-        },
-        {
-            "symbol": "MSTR",
-            "dt": "2025-06-06"
-        },
-        {
-            "symbol": "MUSA",
-            "dt": "2025-06-06"
-        },
-        {
-            "symbol": "NFLX",
-            "dt": "2025-06-06"
-        },
-        {
-            "symbol": "PLTR",
-            "dt": "2025-06-06"
-        },
-        {
-            "symbol": "QQQ",
-            "dt": "2025-06-06"
-        },
-        {
-            "symbol": "RBLX",
-            "dt": "2025-06-06"
-        },
-        {
-            "symbol": "RDDT",
-            "dt": "2025-06-06"
-        },
-        {
-            "symbol": "RIOT",
-            "dt": "2025-06-06"
-        },
-        {
-            "symbol": "SNOW",
-            "dt": "2025-06-06"
-        },
-        {
-            "symbol": "SONY",
-            "dt": "2025-06-06"
-        },
-        {
-            "symbol": "TMUS",
-            "dt": "2025-06-06"
-        },
-        {
-            "symbol": "TSLA",
-            "dt": "2025-06-06"
-        },
-        {
-            "symbol": "TSM",
-            "dt": "2025-06-06"
-        },
-        {
-            "symbol": "UNH",
-            "dt": "2025-06-06"
-        },
-        {
-            "symbol": "VT",
-            "dt": "2025-06-06"
-        },
-        {
-            "symbol": "XLB",
-            "dt": "2025-06-06"
-        },
-        {
-            "symbol": "XLK",
-            "dt": "2025-06-06"
-        },
-        {
-            "symbol": "XLV",
-            "dt": "2025-06-06"
-        },
-        {
-            "symbol": "AAPL",
-            "dt": "2025-06-06"
-        },
-        {
-            "symbol": "IBM",
-            "dt": "2025-06-06"
-        },
-        {
-            "symbol": "GTLB",
-            "dt": "2025-06-06"
-        },
-        {
-            "symbol": "HIMS",
-            "dt": "2025-06-06"
-        },
-        {
-            "symbol": "MSTX",
-            "dt": "2025-06-06"
-        },
-        {
-            "symbol": "SHOP",
-            "dt": "2025-06-06"
-        },
-        {
-            "symbol": "ASPI",
-            "dt": "2025-06-06"
-        },
-        {
-            "symbol": "EVGO",
-            "dt": "2025-06-06"
-        },
-        {
-            "symbol": "AVAV",
-            "dt": "2025-06-06"
-        },
-        {
-            "symbol": "NOV",
-            "dt": "2025-06-06"
-        },
-        {
-            "symbol": "SMR",
-            "dt": "2025-06-06"
-        },
-        {
-            "symbol": "LEU",
-            "dt": "2025-06-06"
-        },
-        {
-            "symbol": "OKLO",
-            "dt": "2025-06-06"
-        },
-        {
-            "symbol": "AAL",
-            "dt": "2025-06-06"
-        },
-        {
-            "symbol": "ABBV",
-            "dt": "2025-06-06"
-        },
-        {
-            "symbol": "ACN",
-            "dt": "2025-06-06"
-        },
-        {
-            "symbol": "ADBE",
-            "dt": "2025-06-06"
-        },
-        {
-            "symbol": "AIG",
-            "dt": "2025-06-06"
-        },
-        {
-            "symbol": "AMAT",
-            "dt": "2025-06-06"
-        },
-        {
-            "symbol": "AMC",
-            "dt": "2025-06-06"
-        },
-        {
-            "symbol": "AMSC",
-            "dt": "2025-06-06"
-        },
-        {
-            "symbol": "ARHS",
-            "dt": "2025-06-06"
-        },
-        {
-            "symbol": "ASML",
-            "dt": "2025-06-06"
-        },
-        {
-            "symbol": "SQ",
-            "dt": "2025-06-06"
-        },
-        {
-            "symbol": "BKSY",
-            "dt": "2025-06-06"
-        },
-        {
-            "symbol": "GEO",
-            "dt": "2025-06-06"
-        },
-        {
-            "symbol": "DKNG",
-            "dt": "2025-06-06"
-        },
-        {
-            "symbol": "JPM",
-            "dt": "2025-06-06"
-        },
-        {
-            "symbol": "INTU",
-            "dt": "2025-06-06"
-        },
-        {
-            "symbol": "GS",
-            "dt": "2025-06-06"
-        },
-        {
-            "symbol": "JOBY",
-            "dt": "2025-06-06"
-        },
-        {
-            "symbol": "ANF",
-            "dt": "2025-06-06"
-        },
-        {
-            "symbol": "RL",
-            "dt": "2025-06-06"
-        },
-        {
-            "symbol": "PH",
-            "dt": "2025-06-06"
-        },
-        {
-            "symbol": "ZS",
-            "dt": "2025-06-06"
-        },
-        {
-            "symbol": "APLD",
-            "dt": "2025-06-06"
-        },
-        {
-            "symbol": "BKNG",
-            "dt": "2025-06-06"
-        },
-        {
-            "symbol": "KULR",
-            "dt": "2025-06-06"
-        },
-        {
-            "symbol": "CABA",
-            "dt": "2025-06-06"
-        },
-        {
-            "symbol": "OPEN",
-            "dt": "2025-06-06"
-        },
-        {
-            "symbol": "WOLF",
-            "dt": "2025-06-06"
-        },
-        {
-            "symbol": "ALGS",
-            "dt": "2025-06-06"
-        },
-        {
-            "symbol": "SPOT",
-            "dt": "2025-06-06"
-        },
-        {
-            "symbol": "S",
-            "dt": "2025-06-06"
-        },
-        {
-            "symbol": "CNTA",
-            "dt": "2025-06-06"
-        },
-        {
-            "symbol": "GMED",
-            "dt": "2025-06-06"
-        },
-        {
-            "symbol": "ULTA",
-            "dt": "2025-06-06"
-        },
-        {
-            "symbol": "APPN",
-            "dt": "2025-06-06"
-        },
-        {
-            "symbol": "PDD",
-            "dt": "2025-06-06"
-        },
-        {
-            "symbol": "JD",
-            "dt": "2025-06-06"
-        },
-        {
-            "symbol": "NNE",
-            "dt": "2025-06-06"
-        },
-        {
-            "symbol": "CIBR",
-            "dt": "2025-06-06"
-        },
-        {
-            "symbol": "CARR",
-            "dt": "2025-06-06"
-        },
-        {
-            "symbol": "ISRG",
-            "dt": "2025-06-06"
-        },
-        {
-            "symbol": "AUR",
-            "dt": "2025-06-06"
-        },
-        {
-            "symbol": "VEEV",
-            "dt": "2025-06-06"
-        },
-        {
-            "symbol": "MTSI",
-            "dt": "2025-06-06"
-        },
-        {
-            "symbol": "GSK",
-            "dt": "2025-06-06"
-        },
-        {
-            "symbol": "TEM",
-            "dt": "2025-06-06"
-        },
-        {
-            "symbol": "VIX",
-            "dt": "2025-06-06"
-        },
-        {
-            "symbol": "UVXY",
-            "dt": "2025-06-06"
-        },
-        {
-            "symbol": "MELI",
-            "dt": "2025-06-06"
-        },
-        {
-            "symbol": "FF",
-            "dt": "2025-06-06"
-        },
-        {
-            "symbol": "AEVA",
-            "dt": "2025-06-06"
-        },
-        {
-            "symbol": "NGG",
-            "dt": "2025-06-06"
-        },
-        {
-            "symbol": "C",
-            "dt": "2025-06-06"
-        },
-        {
-            "symbol": "CXM",
-            "dt": "2025-06-06"
-        },
-        {
-            "symbol": "CRNC",
-            "dt": "2025-06-06"
-        },
-        {
-            "symbol": "CAG",
-            "dt": "2025-06-06"
-        },
-        {
-            "symbol": "NEM",
-            "dt": "2025-06-06"
-        },
-        {
-            "symbol": "LQDT",
-            "dt": "2025-06-06"
-        },
-        {
-            "symbol": "XOM",
-            "dt": "2025-06-06"
-        },
-        {
-            "symbol": "ETSY",
-            "dt": "2025-06-06"
-        },
-        {
-            "symbol": "RUN",
-            "dt": "2025-06-06"
-        },
-        {
-            "symbol": "ARBE",
-            "dt": "2025-06-06"
-        },
-        {
-            "symbol": "QSI",
-            "dt": "2025-06-06"
-        },
-        {
-            "symbol": "TLN",
-            "dt": "2025-06-06"
-        },
-        {
-            "symbol": "TKO",
-            "dt": "2025-06-06"
-        },
-        {
-            "symbol": "NET",
-            "dt": "2025-06-06"
-        },
-        {
-            "symbol": "NVDS",
-            "dt": "2025-06-06"
-        },
-        {
-            "symbol": "KDP",
-            "dt": "2025-06-06"
-        },
-        {
-            "symbol": "TLS",
-            "dt": "2025-06-06"
-        },
-        {
-            "symbol": "QQQM",
-            "dt": "2025-06-06"
-        },
-        {
-            "symbol": "ELF",
-            "dt": "2025-06-06"
-        },
-        {
-            "symbol": "DAL",
-            "dt": "2025-06-06"
-        },
-        {
-            "symbol": "CRSP",
-            "dt": "2025-06-06"
-        },
-        {
-            "symbol": "KWEB",
-            "dt": "2025-06-06"
-        },
-        {
-            "symbol": "RBBN",
-            "dt": "2025-06-06"
-        },
-        {
-            "symbol": "HOG",
-            "dt": "2025-06-06"
-        },
-        {
-            "symbol": "OSCR",
-            "dt": "2025-06-06"
-        },
-        {
-            "symbol": "DVN",
-            "dt": "2025-06-06"
-        },
-        {
-            "symbol": "NVAX",
-            "dt": "2025-06-06"
-        },
-        {
-            "symbol": "DT",
-            "dt": "2025-06-06"
-        },
-        {
-            "symbol": "KEY",
-            "dt": "2025-06-06"
-        },
-        {
-            "symbol": "UUUU",
-            "dt": "2025-06-06"
-        },
-        {
-            "symbol": "SOXS",
-            "dt": "2025-06-06"
-        },
-        {
-            "symbol": "LRCX",
-            "dt": "2025-06-06"
-        },
-        {
-            "symbol": "FXI",
-            "dt": "2025-06-06"
-        },
-        {
-            "symbol": "TTAN",
-            "dt": "2025-06-06"
-        },
-        {
-            "symbol": "INDA",
-            "dt": "2025-06-06"
-        },
-        {
-            "symbol": "PNNT",
-            "dt": "2025-06-06"
-        },
-        {
-            "symbol": "CYBR",
-            "dt": "2025-06-06"
-        },
-        {
-            "symbol": "CSWC",
-            "dt": "2025-06-06"
-        },
-        {
-            "symbol": "GAMB",
-            "dt": "2025-06-06"
-        },
-        {
-            "symbol": "CSIQ",
-            "dt": "2025-06-06"
-        },
-        {
-            "symbol": "BRAG",
-            "dt": "2025-06-06"
-        },
-        {
-            "symbol": "DOCS",
-            "dt": "2025-06-06"
-        },
-        {
-            "symbol": "BRC",
-            "dt": "2025-06-06"
-        },
-        {
-            "symbol": "EGHT",
-            "dt": "2025-06-06"
-        },
-        {
-            "symbol": "SB",
-            "dt": "2025-06-06"
-        },
-        {
-            "symbol": "YALA",
-            "dt": "2025-06-06"
-        },
-        {
-            "symbol": "SKY",
-            "dt": "2025-06-06"
-        },
-        {
-            "symbol": "KNOP",
-            "dt": "2025-06-06"
-        },
-        {
-            "symbol": "URBN",
-            "dt": "2025-06-06"
-        },
-        {
-            "symbol": "ROST",
-            "dt": "2025-06-06"
-        },
-        {
-            "symbol": "CBTX",
-            "dt": "2025-06-06"
-        },
-        {
-            "symbol": "YMAX",
-            "dt": "2025-06-06"
-        },
-        {
-            "symbol": "YMAG",
-            "dt": "2025-06-06"
-        },
-        {
-            "symbol": "PONY",
-            "dt": "2025-06-06"
-        },
-        {
-            "symbol": "BB",
-            "dt": "2025-06-06"
-        },
-        {
-            "symbol": "CSX",
-            "dt": "2025-06-06"
-        },
-        {
-            "symbol": "UVIX",
-            "dt": "2025-06-06"
-        },
-        {
-            "symbol": "FSLR",
-            "dt": "2025-06-06"
-        },
-        {
             "symbol": "VKTX",
             "dt": "2025-06-07"
         },
@@ -17717,584 +17093,636 @@
             "dt": "2025-07-10"
         },
         {
-            "symbol": "VKTX",
-            "dt": "2025-06-06"
+            "symbol": "FLR",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "SOFI",
-            "dt": "2025-06-06"
+            "symbol": "AMD",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "RMTI",
-            "dt": "2025-06-06"
+            "symbol": "AI",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "IONQ",
-            "dt": "2025-06-06"
+            "symbol": "AMZN",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "ABNB",
-            "dt": "2025-06-06"
+            "symbol": "BA",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "ACHR",
-            "dt": "2025-06-06"
+            "symbol": "BABA",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "ARM",
-            "dt": "2025-06-06"
+            "symbol": "BBY",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "AVGO",
-            "dt": "2025-06-06"
+            "symbol": "BIDU",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "BAC",
-            "dt": "2025-06-06"
+            "symbol": "BITX",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "CAT",
-            "dt": "2025-06-06"
+            "symbol": "CMCSA",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "CRM",
-            "dt": "2025-06-06"
+            "symbol": "DASH",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "CRWD",
-            "dt": "2025-06-06"
+            "symbol": "GOOGL",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "CVS",
-            "dt": "2025-06-06"
+            "symbol": "HOOD",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "ETHU",
-            "dt": "2025-06-06"
+            "symbol": "KR",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "HPE",
-            "dt": "2025-06-06"
+            "symbol": "MSFT",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "HPQ",
-            "dt": "2025-06-06"
+            "symbol": "MSTR",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "INTC",
-            "dt": "2025-06-06"
+            "symbol": "MUSA",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "META",
-            "dt": "2025-06-06"
+            "symbol": "NFLX",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "MU",
-            "dt": "2025-06-06"
+            "symbol": "PLTR",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "NKE",
-            "dt": "2025-06-06"
+            "symbol": "QQQ",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "NVDA",
-            "dt": "2025-06-06"
+            "symbol": "RBLX",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "NVDL",
-            "dt": "2025-06-06"
+            "symbol": "RDDT",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "PFE",
-            "dt": "2025-06-06"
+            "symbol": "RIOT",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "TSLL",
-            "dt": "2025-06-06"
+            "symbol": "SNOW",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "W",
-            "dt": "2025-06-06"
+            "symbol": "SONY",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "GLD",
-            "dt": "2025-06-06"
+            "symbol": "TMUS",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "LUNR",
-            "dt": "2025-06-06"
+            "symbol": "TSLA",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "ONON",
-            "dt": "2025-06-06"
+            "symbol": "TSM",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "HCC",
-            "dt": "2025-06-06"
+            "symbol": "UNH",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "BSX",
-            "dt": "2025-06-06"
+            "symbol": "VT",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "ACCD",
-            "dt": "2025-06-06"
+            "symbol": "XLB",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "DDOG",
-            "dt": "2025-06-06"
+            "symbol": "XLK",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "DXCM",
-            "dt": "2025-06-06"
+            "symbol": "XLV",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "ACAD",
-            "dt": "2025-06-06"
+            "symbol": "AAPL",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "AX",
-            "dt": "2025-06-06"
+            "symbol": "IBM",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "CTAS",
-            "dt": "2025-06-06"
+            "symbol": "GTLB",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "CRS",
-            "dt": "2025-06-06"
+            "symbol": "HIMS",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "AXON",
-            "dt": "2025-06-06"
+            "symbol": "MSTX",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "GOLD",
-            "dt": "2025-06-06"
+            "symbol": "SHOP",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "ETN",
-            "dt": "2025-06-06"
+            "symbol": "ASPI",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "QBTS",
-            "dt": "2025-06-06"
+            "symbol": "EVGO",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "CECO",
-            "dt": "2025-06-06"
+            "symbol": "AVAV",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "BMY",
-            "dt": "2025-06-06"
+            "symbol": "NOV",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "CATY",
-            "dt": "2025-06-06"
+            "symbol": "SMR",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "WFC",
-            "dt": "2025-06-06"
+            "symbol": "LEU",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "CMG",
-            "dt": "2025-06-06"
+            "symbol": "OKLO",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "CCL",
-            "dt": "2025-06-06"
+            "symbol": "AAL",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "FINV",
-            "dt": "2025-06-06"
+            "symbol": "ABBV",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "PL",
-            "dt": "2025-06-06"
+            "symbol": "ACN",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "PANW",
-            "dt": "2025-06-06"
+            "symbol": "ADBE",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "HUT",
-            "dt": "2025-06-06"
+            "symbol": "AIG",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "ASND",
-            "dt": "2025-06-06"
+            "symbol": "AMAT",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "LULU",
-            "dt": "2025-06-06"
+            "symbol": "AMC",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "SATL",
-            "dt": "2025-06-06"
+            "symbol": "AMSC",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "CHRS",
-            "dt": "2025-06-06"
+            "symbol": "ARHS",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "COHR",
-            "dt": "2025-06-06"
+            "symbol": "ASML",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "CELH",
-            "dt": "2025-06-06"
+            "symbol": "BKSY",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "NDX",
-            "dt": "2025-06-06"
+            "symbol": "GEO",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "DHR",
-            "dt": "2025-06-06"
+            "symbol": "DKNG",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "VLTO",
-            "dt": "2025-06-06"
+            "symbol": "JPM",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "KTOS",
-            "dt": "2025-06-06"
+            "symbol": "INTU",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "VUZI",
-            "dt": "2025-06-06"
+            "symbol": "GS",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "TSAT",
-            "dt": "2025-06-06"
+            "symbol": "JOBY",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "POET",
-            "dt": "2025-06-06"
+            "symbol": "ANF",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "EOSE",
-            "dt": "2025-06-06"
+            "symbol": "RL",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "SERV",
-            "dt": "2025-06-06"
+            "symbol": "PH",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "NNOX",
-            "dt": "2025-06-06"
+            "symbol": "ZS",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "RXRX",
-            "dt": "2025-06-06"
+            "symbol": "APLD",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "PRCT",
-            "dt": "2025-06-06"
+            "symbol": "BKNG",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "SENS",
-            "dt": "2025-06-06"
+            "symbol": "KULR",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "AISP",
-            "dt": "2025-06-06"
+            "symbol": "CABA",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "BYRN",
-            "dt": "2025-06-06"
+            "symbol": "OPEN",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "LLY",
-            "dt": "2025-06-06"
+            "symbol": "WOLF",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "KODK",
-            "dt": "2025-06-06"
+            "symbol": "SPOT",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "SPXL",
-            "dt": "2025-06-06"
+            "symbol": "S",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "UPRO",
-            "dt": "2025-06-06"
+            "symbol": "CNTA",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "INVZ",
-            "dt": "2025-06-06"
+            "symbol": "GMED",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "LODE",
-            "dt": "2025-06-06"
+            "symbol": "ULTA",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "UAA",
-            "dt": "2025-06-06"
+            "symbol": "APPN",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "FFIE",
-            "dt": "2025-06-06"
+            "symbol": "PDD",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "MNMD",
-            "dt": "2025-06-06"
+            "symbol": "JD",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "PACB",
-            "dt": "2025-06-06"
+            "symbol": "NNE",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "PGNY",
-            "dt": "2025-06-06"
+            "symbol": "CIBR",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "VGT",
-            "dt": "2025-06-06"
+            "symbol": "CARR",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "LOVE",
-            "dt": "2025-06-06"
+            "symbol": "ISRG",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "UAMY",
-            "dt": "2025-06-06"
+            "symbol": "AUR",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "OXY",
-            "dt": "2025-06-06"
+            "symbol": "VEEV",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "SPXU",
-            "dt": "2025-06-06"
+            "symbol": "MTSI",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "BRZE",
-            "dt": "2025-06-06"
+            "symbol": "GSK",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "SIRI",
-            "dt": "2025-06-06"
+            "symbol": "TEM",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "PHUN",
-            "dt": "2025-06-06"
+            "symbol": "VIX",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "WWD",
-            "dt": "2025-06-06"
+            "symbol": "UVXY",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "PGRE",
-            "dt": "2025-06-06"
+            "symbol": "MELI",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "NUE",
-            "dt": "2025-06-06"
+            "symbol": "FF",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "NOTE",
-            "dt": "2025-06-06"
+            "symbol": "AEVA",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "HUBS",
-            "dt": "2025-06-06"
+            "symbol": "NGG",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "NOW",
-            "dt": "2025-06-06"
+            "symbol": "C",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "JBLU",
-            "dt": "2025-06-06"
+            "symbol": "CXM",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "AKAM",
-            "dt": "2025-06-06"
+            "symbol": "CRNC",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "SYM",
-            "dt": "2025-06-06"
+            "symbol": "CAG",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "LVS",
-            "dt": "2025-06-06"
+            "symbol": "NEM",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "XYZ",
-            "dt": "2025-06-06"
+            "symbol": "LQDT",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "IGV",
-            "dt": "2025-06-06"
+            "symbol": "XOM",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "PTGX",
-            "dt": "2025-06-06"
+            "symbol": "ETSY",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "HIMX",
-            "dt": "2025-06-06"
+            "symbol": "RUN",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "QS",
-            "dt": "2025-06-06"
+            "symbol": "ARBE",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "BITI",
-            "dt": "2025-06-06"
+            "symbol": "QSI",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "JWN",
-            "dt": "2025-06-06"
+            "symbol": "TLN",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "SQQQ",
-            "dt": "2025-06-06"
+            "symbol": "TKO",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "BYD",
-            "dt": "2025-06-06"
+            "symbol": "NET",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "VNET",
-            "dt": "2025-06-06"
+            "symbol": "NVDS",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "WWW",
-            "dt": "2025-06-06"
+            "symbol": "KDP",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "AFL",
-            "dt": "2025-06-06"
+            "symbol": "TLS",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "CWH",
-            "dt": "2025-06-06"
+            "symbol": "QQQM",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "HWM",
-            "dt": "2025-06-06"
+            "symbol": "ELF",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "XSP",
-            "dt": "2025-06-06"
+            "symbol": "DAL",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "BUD",
-            "dt": "2025-06-06"
+            "symbol": "CRSP",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "TTI",
-            "dt": "2025-06-06"
+            "symbol": "KWEB",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "NRG",
-            "dt": "2025-06-06"
+            "symbol": "RBBN",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "CEPU",
-            "dt": "2025-06-06"
+            "symbol": "HOG",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "PLUG",
-            "dt": "2025-06-06"
+            "symbol": "OSCR",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "HMC",
-            "dt": "2025-06-06"
+            "symbol": "DVN",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "HUM",
-            "dt": "2025-06-06"
+            "symbol": "NVAX",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "LABU",
-            "dt": "2025-06-06"
+            "symbol": "DT",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "BAH",
-            "dt": "2025-06-06"
+            "symbol": "KEY",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "SBLK",
-            "dt": "2025-06-06"
+            "symbol": "UUUU",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "JACK",
-            "dt": "2025-06-06"
+            "symbol": "SOXS",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "FI",
-            "dt": "2025-06-06"
+            "symbol": "LRCX",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "TUYA",
-            "dt": "2025-06-06"
+            "symbol": "FXI",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "XP",
-            "dt": "2025-06-06"
+            "symbol": "TTAN",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "SDGR",
-            "dt": "2025-06-06"
+            "symbol": "INDA",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "ZI",
-            "dt": "2025-06-06"
+            "symbol": "PNNT",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "IQV",
-            "dt": "2025-06-06"
+            "symbol": "CYBR",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "AS",
-            "dt": "2025-06-06"
+            "symbol": "CSWC",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "MNSO",
-            "dt": "2025-06-06"
+            "symbol": "GAMB",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "ETHA",
-            "dt": "2025-06-06"
+            "symbol": "CSIQ",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "MDB",
-            "dt": "2025-06-06"
+            "symbol": "BRAG",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "USAU",
-            "dt": "2025-06-06"
+            "symbol": "DOCS",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "MSTY",
-            "dt": "2025-06-06"
+            "symbol": "BRC",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "ULTY",
-            "dt": "2025-06-06"
+            "symbol": "EGHT",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "CONY",
-            "dt": "2025-06-06"
+            "symbol": "SB",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "ABR",
-            "dt": "2025-06-06"
+            "symbol": "YALA",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "GERN",
-            "dt": "2025-06-06"
+            "symbol": "SKY",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "RCKT",
-            "dt": "2025-06-06"
+            "symbol": "KNOP",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "ATYR",
-            "dt": "2025-06-06"
+            "symbol": "URBN",
+            "dt": "2025-07-11"
+        },
+        {
+            "symbol": "ROST",
+            "dt": "2025-07-11"
+        },
+        {
+            "symbol": "CBTX",
+            "dt": "2025-07-11"
+        },
+        {
+            "symbol": "YMAX",
+            "dt": "2025-07-11"
+        },
+        {
+            "symbol": "YMAG",
+            "dt": "2025-07-11"
+        },
+        {
+            "symbol": "PONY",
+            "dt": "2025-07-11"
+        },
+        {
+            "symbol": "BB",
+            "dt": "2025-07-11"
+        },
+        {
+            "symbol": "CSX",
+            "dt": "2025-07-11"
+        },
+        {
+            "symbol": "UVIX",
+            "dt": "2025-07-11"
+        },
+        {
+            "symbol": "FSLR",
+            "dt": "2025-07-11"
+        },
+        {
+            "symbol": "APGE",
+            "dt": "2025-07-11"
+        },
+        {
+            "symbol": "PGR",
+            "dt": "2025-07-11"
+        },
+        {
+            "symbol": "MODG",
+            "dt": "2025-07-11"
+        },
+        {
+            "symbol": "OVV",
+            "dt": "2025-07-11"
         },
         {
             "symbol": "FLR",
@@ -35241,528 +34669,596 @@
             "dt": "2025-07-10"
         },
         {
-            "symbol": "ARMK",
-            "dt": "2025-06-06"
+            "symbol": "VKTX",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "ASTS",
-            "dt": "2025-06-06"
+            "symbol": "SOFI",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "CLSK",
-            "dt": "2025-06-06"
+            "symbol": "RMTI",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "COIN",
-            "dt": "2025-06-06"
+            "symbol": "IONQ",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "DIS",
-            "dt": "2025-06-06"
+            "symbol": "ABNB",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "F",
-            "dt": "2025-06-06"
+            "symbol": "ACHR",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "SBUX",
-            "dt": "2025-06-06"
+            "symbol": "ARM",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "SPY",
-            "dt": "2025-06-06"
+            "symbol": "AVGO",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "TGT",
-            "dt": "2025-06-06"
+            "symbol": "BAC",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "UPST",
-            "dt": "2025-06-06"
+            "symbol": "CAT",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "WMT",
-            "dt": "2025-06-06"
+            "symbol": "CRM",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "XEL",
-            "dt": "2025-06-06"
+            "symbol": "CRWD",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "XLC",
-            "dt": "2025-06-06"
+            "symbol": "CVS",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "XLF",
-            "dt": "2025-06-06"
+            "symbol": "ETHU",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "XLY",
-            "dt": "2025-06-06"
+            "symbol": "HPE",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "UBER",
-            "dt": "2025-06-06"
+            "symbol": "HPQ",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "PTON",
-            "dt": "2025-06-06"
+            "symbol": "INTC",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "CSCO",
-            "dt": "2025-06-06"
+            "symbol": "META",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "MCD",
-            "dt": "2025-06-06"
+            "symbol": "MU",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "TLT",
-            "dt": "2025-06-06"
+            "symbol": "NKE",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "LRMR",
-            "dt": "2025-06-06"
+            "symbol": "NVDA",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "CVNA",
-            "dt": "2025-06-06"
+            "symbol": "NVDL",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "LE",
-            "dt": "2025-06-06"
+            "symbol": "PFE",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "ABT",
-            "dt": "2025-06-06"
+            "symbol": "TSLL",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "ADI",
-            "dt": "2025-06-06"
+            "symbol": "W",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "AGG",
-            "dt": "2025-06-06"
+            "symbol": "GLD",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "ALGM",
-            "dt": "2025-06-06"
+            "symbol": "LUNR",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "AMGN",
-            "dt": "2025-06-06"
+            "symbol": "ONON",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "ARKK",
-            "dt": "2025-06-06"
+            "symbol": "HCC",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "AXP",
-            "dt": "2025-06-06"
+            "symbol": "BSX",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "MARA",
-            "dt": "2025-06-06"
+            "symbol": "DDOG",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "PINS",
-            "dt": "2025-06-06"
+            "symbol": "DXCM",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "EBS",
-            "dt": "2025-06-06"
+            "symbol": "ACAD",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "HON",
-            "dt": "2025-06-06"
+            "symbol": "AX",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "COST",
-            "dt": "2025-06-06"
+            "symbol": "CTAS",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "FOUR",
-            "dt": "2025-06-06"
+            "symbol": "CRS",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "MBLY",
-            "dt": "2025-06-06"
+            "symbol": "AXON",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "PATH",
-            "dt": "2025-06-06"
+            "symbol": "ETN",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "V",
-            "dt": "2025-06-06"
+            "symbol": "QBTS",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "KRE",
-            "dt": "2025-06-06"
+            "symbol": "CECO",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "NU",
-            "dt": "2025-06-06"
+            "symbol": "BMY",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "PYPL",
-            "dt": "2025-06-06"
+            "symbol": "CATY",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "ZETA",
-            "dt": "2025-06-06"
+            "symbol": "WFC",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "MRVL",
-            "dt": "2025-06-06"
+            "symbol": "CMG",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "OKTA",
-            "dt": "2025-06-06"
+            "symbol": "CCL",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "APP",
-            "dt": "2025-06-06"
+            "symbol": "FINV",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "CPNG",
-            "dt": "2025-06-06"
+            "symbol": "PL",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "UEC",
-            "dt": "2025-06-06"
+            "symbol": "PANW",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "BTBT",
-            "dt": "2025-06-06"
+            "symbol": "HUT",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "BTC",
-            "dt": "2025-06-06"
+            "symbol": "ASND",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "TIGR",
-            "dt": "2025-06-06"
+            "symbol": "LULU",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "IREN",
-            "dt": "2025-06-06"
+            "symbol": "SATL",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "TQQQ",
-            "dt": "2025-06-06"
+            "symbol": "CHRS",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "SPX",
-            "dt": "2025-06-06"
+            "symbol": "COHR",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "LITE",
-            "dt": "2025-06-06"
+            "symbol": "CELH",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "SMTC",
-            "dt": "2025-06-06"
+            "symbol": "NDX",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "NBIS",
-            "dt": "2025-06-06"
+            "symbol": "DHR",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "RCAT",
-            "dt": "2025-06-06"
+            "symbol": "VLTO",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "EVEX",
-            "dt": "2025-06-06"
+            "symbol": "KTOS",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "CRDO",
-            "dt": "2025-06-06"
+            "symbol": "VUZI",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "BLDE",
-            "dt": "2025-06-06"
+            "symbol": "TSAT",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "GSAT",
-            "dt": "2025-06-06"
+            "symbol": "POET",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "IOT",
-            "dt": "2025-06-06"
+            "symbol": "EOSE",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "IQ",
-            "dt": "2025-06-06"
+            "symbol": "SERV",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "GRRR",
-            "dt": "2025-06-06"
+            "symbol": "NNOX",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "ROKU",
-            "dt": "2025-06-06"
+            "symbol": "RXRX",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "VRT",
-            "dt": "2025-06-06"
+            "symbol": "PRCT",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "BIRK",
-            "dt": "2025-06-06"
+            "symbol": "SENS",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "SVXY",
-            "dt": "2025-06-06"
+            "symbol": "AISP",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "FIX",
-            "dt": "2025-06-06"
+            "symbol": "BYRN",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "CLS",
-            "dt": "2025-06-06"
+            "symbol": "LLY",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "UAL",
-            "dt": "2025-06-06"
+            "symbol": "KODK",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "SES",
-            "dt": "2025-06-06"
+            "symbol": "SPXL",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "WBA",
-            "dt": "2025-06-06"
+            "symbol": "UPRO",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "ATAI",
-            "dt": "2025-06-06"
+            "symbol": "INVZ",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "LYFT",
-            "dt": "2025-06-06"
+            "symbol": "LODE",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "SLV",
-            "dt": "2025-06-06"
+            "symbol": "UAA",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "KMI",
-            "dt": "2025-06-06"
+            "symbol": "MNMD",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "MRNA",
-            "dt": "2025-06-06"
+            "symbol": "PACB",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "VTI",
-            "dt": "2025-06-06"
+            "symbol": "PGNY",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "ON",
-            "dt": "2025-06-06"
+            "symbol": "VGT",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "VERI",
-            "dt": "2025-06-06"
+            "symbol": "LOVE",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "VCEL",
-            "dt": "2025-06-06"
+            "symbol": "UAMY",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "MRX",
-            "dt": "2025-06-06"
+            "symbol": "OXY",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "WEN",
-            "dt": "2025-06-06"
+            "symbol": "SPXU",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "CYN",
-            "dt": "2025-06-06"
+            "symbol": "BRZE",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "VFC",
-            "dt": "2025-06-06"
+            "symbol": "SIRI",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "NXPI",
-            "dt": "2025-06-06"
+            "symbol": "PHUN",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "TTD",
-            "dt": "2025-06-06"
+            "symbol": "WWD",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "RBRK",
-            "dt": "2025-06-06"
+            "symbol": "PGRE",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "LNG",
-            "dt": "2025-06-06"
+            "symbol": "NUE",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "LTBR",
-            "dt": "2025-06-06"
+            "symbol": "NOTE",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "BUG",
-            "dt": "2025-06-06"
+            "symbol": "HUBS",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "PDYN",
-            "dt": "2025-06-06"
+            "symbol": "NOW",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "KOPN",
-            "dt": "2025-06-06"
+            "symbol": "JBLU",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "AHR",
-            "dt": "2025-06-06"
+            "symbol": "AKAM",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "FEPI",
-            "dt": "2025-06-06"
+            "symbol": "SYM",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "CMPO",
-            "dt": "2025-06-06"
+            "symbol": "LVS",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "BCRX",
-            "dt": "2025-06-06"
+            "symbol": "XYZ",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "RXT",
-            "dt": "2025-06-06"
+            "symbol": "IGV",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "VIV",
-            "dt": "2025-06-06"
+            "symbol": "PTGX",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "BKD",
-            "dt": "2025-06-06"
+            "symbol": "HIMX",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "LAES",
-            "dt": "2025-06-06"
+            "symbol": "QS",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "PTC",
-            "dt": "2025-06-06"
+            "symbol": "BITI",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "GLOB",
-            "dt": "2025-06-06"
+            "symbol": "JWN",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "EGY",
-            "dt": "2025-06-06"
+            "symbol": "SQQQ",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "VXX",
-            "dt": "2025-06-06"
+            "symbol": "BYD",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "X",
-            "dt": "2025-06-06"
+            "symbol": "VNET",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "ELEV",
-            "dt": "2025-06-06"
+            "symbol": "WWW",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "USO",
-            "dt": "2025-06-06"
+            "symbol": "AFL",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "HSAI",
-            "dt": "2025-06-06"
+            "symbol": "CWH",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "BEP",
-            "dt": "2025-06-06"
+            "symbol": "HWM",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "CATX",
-            "dt": "2025-06-06"
+            "symbol": "XSP",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "CEG",
-            "dt": "2025-06-06"
+            "symbol": "BUD",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "DEO",
-            "dt": "2025-06-06"
+            "symbol": "TTI",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "CRWV",
-            "dt": "2025-06-06"
+            "symbol": "NRG",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "FVRR",
-            "dt": "2025-06-06"
+            "symbol": "CEPU",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "VIK",
-            "dt": "2025-06-06"
+            "symbol": "PLUG",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "MOD",
-            "dt": "2025-06-06"
+            "symbol": "HMC",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "ZTO",
-            "dt": "2025-06-06"
+            "symbol": "HUM",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "GOOS",
-            "dt": "2025-06-06"
+            "symbol": "LABU",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "TD",
-            "dt": "2025-06-06"
+            "symbol": "BAH",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "DECK",
-            "dt": "2025-06-06"
+            "symbol": "SBLK",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "SVM",
-            "dt": "2025-06-06"
+            "symbol": "JACK",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "VIXY",
-            "dt": "2025-06-06"
+            "symbol": "FI",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "BULL",
-            "dt": "2025-06-06"
+            "symbol": "TUYA",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "UPS",
-            "dt": "2025-06-06"
+            "symbol": "XP",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "BMEA",
-            "dt": "2025-06-06"
+            "symbol": "SDGR",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "OUST",
-            "dt": "2025-06-06"
+            "symbol": "IQV",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "GLXY",
-            "dt": "2025-06-06"
+            "symbol": "AS",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "EBAY",
-            "dt": "2025-06-06"
+            "symbol": "MNSO",
+            "dt": "2025-07-11"
+        },
+        {
+            "symbol": "ETHA",
+            "dt": "2025-07-11"
+        },
+        {
+            "symbol": "MDB",
+            "dt": "2025-07-11"
+        },
+        {
+            "symbol": "USAU",
+            "dt": "2025-07-11"
+        },
+        {
+            "symbol": "MSTY",
+            "dt": "2025-07-11"
+        },
+        {
+            "symbol": "ULTY",
+            "dt": "2025-07-11"
+        },
+        {
+            "symbol": "CONY",
+            "dt": "2025-07-11"
+        },
+        {
+            "symbol": "ABR",
+            "dt": "2025-07-11"
+        },
+        {
+            "symbol": "GERN",
+            "dt": "2025-07-11"
+        },
+        {
+            "symbol": "RCKT",
+            "dt": "2025-07-11"
+        },
+        {
+            "symbol": "ATYR",
+            "dt": "2025-07-11"
+        },
+        {
+            "symbol": "STZ",
+            "dt": "2025-07-11"
+        },
+        {
+            "symbol": "CLBR",
+            "dt": "2025-07-11"
+        },
+        {
+            "symbol": "GEV",
+            "dt": "2025-07-11"
+        },
+        {
+            "symbol": "PENG",
+            "dt": "2025-07-11"
+        },
+        {
+            "symbol": "CNC",
+            "dt": "2025-07-11"
+        },
+        {
+            "symbol": "DG",
+            "dt": "2025-07-11"
+        },
+        {
+            "symbol": "CPER",
+            "dt": "2025-07-11"
         },
         {
             "symbol": "WULF",
@@ -52289,572 +51785,552 @@
             "dt": "2025-07-10"
         },
         {
-            "symbol": "WULF",
-            "dt": "2025-06-06"
+            "symbol": "ARMK",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "LUMN",
-            "dt": "2025-06-06"
+            "symbol": "ASTS",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "AFRM",
-            "dt": "2025-06-06"
+            "symbol": "CLSK",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "ALB",
-            "dt": "2025-06-06"
+            "symbol": "COIN",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "BITO",
-            "dt": "2025-06-06"
+            "symbol": "DIS",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "CONL",
-            "dt": "2025-06-06"
+            "symbol": "F",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "CORZ",
-            "dt": "2025-06-06"
+            "symbol": "SBUX",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "DELL",
-            "dt": "2025-06-06"
+            "symbol": "SPY",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "DJT",
-            "dt": "2025-06-06"
+            "symbol": "TGT",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "FDX",
-            "dt": "2025-06-06"
+            "symbol": "UPST",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "ITA",
-            "dt": "2025-06-06"
+            "symbol": "WMT",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "IWM",
-            "dt": "2025-06-06"
+            "symbol": "XEL",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "JNJ",
-            "dt": "2025-06-06"
+            "symbol": "XLC",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "KSS",
-            "dt": "2025-06-06"
+            "symbol": "XLF",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "PM",
-            "dt": "2025-06-06"
+            "symbol": "XLY",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "SMCI",
-            "dt": "2025-06-06"
+            "symbol": "UBER",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "SMH",
-            "dt": "2025-06-06"
+            "symbol": "PTON",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "SNAP",
-            "dt": "2025-06-06"
+            "symbol": "CSCO",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "SOXL",
-            "dt": "2025-06-06"
+            "symbol": "MCD",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "U",
-            "dt": "2025-06-06"
+            "symbol": "TLT",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "XBI",
-            "dt": "2025-06-06"
+            "symbol": "LRMR",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "XLE",
-            "dt": "2025-06-06"
+            "symbol": "CVNA",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "XLI",
-            "dt": "2025-06-06"
+            "symbol": "LE",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "XLP",
-            "dt": "2025-06-06"
+            "symbol": "ABT",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "SNPS",
-            "dt": "2025-06-06"
+            "symbol": "ADI",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "RKLB",
-            "dt": "2025-06-06"
+            "symbol": "AGG",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "GME",
-            "dt": "2025-06-06"
+            "symbol": "ALGM",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "BTI",
-            "dt": "2025-06-06"
+            "symbol": "AMGN",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "RSI",
-            "dt": "2025-06-06"
+            "symbol": "ARKK",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "BE",
-            "dt": "2025-06-06"
+            "symbol": "AXP",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "AA",
-            "dt": "2025-06-06"
+            "symbol": "MARA",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "AAOI",
-            "dt": "2025-06-06"
+            "symbol": "PINS",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "AMT",
-            "dt": "2025-06-06"
+            "symbol": "EBS",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "AZN",
-            "dt": "2025-06-06"
+            "symbol": "HON",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "CHWY",
-            "dt": "2025-06-06"
+            "symbol": "COST",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "SOUN",
-            "dt": "2025-06-06"
+            "symbol": "FOUR",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "IBIT",
-            "dt": "2025-06-06"
+            "symbol": "MBLY",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "BYND",
-            "dt": "2025-06-06"
+            "symbol": "PATH",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "CCJ",
-            "dt": "2025-06-06"
+            "symbol": "V",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "GOOG",
-            "dt": "2025-06-06"
+            "symbol": "KRE",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "MNDY",
-            "dt": "2025-06-06"
+            "symbol": "NU",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "AAON",
-            "dt": "2025-06-06"
+            "symbol": "PYPL",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "LAZR",
-            "dt": "2025-06-06"
+            "symbol": "ZETA",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "FTNT",
-            "dt": "2025-06-06"
+            "symbol": "MRVL",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "ORCL",
-            "dt": "2025-06-06"
+            "symbol": "OKTA",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "ROAD",
-            "dt": "2025-06-06"
+            "symbol": "APP",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "CASY",
-            "dt": "2025-06-06"
+            "symbol": "CPNG",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "RIVN",
-            "dt": "2025-06-06"
+            "symbol": "UEC",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "ALAB",
-            "dt": "2025-06-06"
+            "symbol": "BTBT",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "MS",
-            "dt": "2025-06-06"
+            "symbol": "BTC",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "HD",
-            "dt": "2025-06-06"
+            "symbol": "TIGR",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "RGTI",
-            "dt": "2025-06-06"
+            "symbol": "IREN",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "CRNT",
-            "dt": "2025-06-06"
+            "symbol": "TQQQ",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "LMND",
-            "dt": "2025-06-06"
+            "symbol": "SPX",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "YINN",
-            "dt": "2025-06-06"
+            "symbol": "LITE",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "PSTG",
-            "dt": "2025-06-06"
+            "symbol": "SMTC",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "TMDX",
-            "dt": "2025-06-06"
+            "symbol": "NBIS",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "PSNY",
-            "dt": "2025-06-06"
+            "symbol": "RCAT",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "NIO",
-            "dt": "2025-06-06"
+            "symbol": "EVEX",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "NVO",
-            "dt": "2025-06-06"
+            "symbol": "CRDO",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "KO",
-            "dt": "2025-06-06"
+            "symbol": "BLDE",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "CLOV",
-            "dt": "2025-06-06"
+            "symbol": "GSAT",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "SE",
-            "dt": "2025-06-06"
+            "symbol": "IOT",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "OPTT",
-            "dt": "2025-06-06"
+            "symbol": "IQ",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "NVMI",
-            "dt": "2025-06-06"
+            "symbol": "GRRR",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "NVTS",
-            "dt": "2025-06-06"
+            "symbol": "ROKU",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "TCOM",
-            "dt": "2025-06-06"
+            "symbol": "VRT",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "CAVA",
-            "dt": "2025-06-06"
+            "symbol": "BIRK",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "VRAR",
-            "dt": "2025-06-06"
+            "symbol": "SVXY",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "IRDM",
-            "dt": "2025-06-06"
+            "symbol": "FIX",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "MVST",
-            "dt": "2025-06-06"
+            "symbol": "CLS",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "UAVS",
-            "dt": "2025-06-06"
+            "symbol": "UAL",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "BBAI",
-            "dt": "2025-06-06"
+            "symbol": "SES",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "RDW",
-            "dt": "2025-06-06"
+            "symbol": "WBA",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "ODD",
-            "dt": "2025-06-06"
+            "symbol": "ATAI",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "AGX",
-            "dt": "2025-06-06"
+            "symbol": "LYFT",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "QUBT",
-            "dt": "2025-06-06"
+            "symbol": "SLV",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "ITB",
-            "dt": "2025-06-06"
+            "symbol": "KMI",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "LMT",
-            "dt": "2025-06-06"
+            "symbol": "MRNA",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "MAGS",
-            "dt": "2025-06-06"
+            "symbol": "VTI",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "ANET",
-            "dt": "2025-06-06"
+            "symbol": "ON",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "SCHD",
-            "dt": "2025-06-06"
+            "symbol": "VERI",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "RKT",
-            "dt": "2025-06-06"
+            "symbol": "VCEL",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "RTX",
-            "dt": "2025-06-06"
+            "symbol": "MRX",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "SMHI",
-            "dt": "2025-06-06"
+            "symbol": "WEN",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "PAYO",
-            "dt": "2025-06-06"
+            "symbol": "VFC",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "PLAY",
-            "dt": "2025-06-06"
+            "symbol": "NXPI",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "INSW",
-            "dt": "2025-06-06"
+            "symbol": "TTD",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "FUBO",
-            "dt": "2025-06-06"
+            "symbol": "RBRK",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "LPSN",
-            "dt": "2025-06-06"
+            "symbol": "LNG",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "ONDS",
-            "dt": "2025-06-06"
+            "symbol": "LTBR",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "ACI",
-            "dt": "2025-06-06"
+            "symbol": "BUG",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "FARO",
-            "dt": "2025-06-06"
+            "symbol": "PDYN",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "CMPS",
-            "dt": "2025-06-06"
+            "symbol": "KOPN",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "AR",
-            "dt": "2025-06-06"
+            "symbol": "AHR",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "RDFN",
-            "dt": "2025-06-06"
+            "symbol": "FEPI",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "MGNI",
-            "dt": "2025-06-06"
+            "symbol": "CMPO",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "M",
-            "dt": "2025-06-06"
+            "symbol": "BCRX",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "ENVX",
-            "dt": "2025-06-06"
+            "symbol": "RXT",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "FNGS",
-            "dt": "2025-06-06"
+            "symbol": "VIV",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "VST",
-            "dt": "2025-06-06"
+            "symbol": "BKD",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "ENPH",
-            "dt": "2025-06-06"
+            "symbol": "LAES",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "FCX",
-            "dt": "2025-06-06"
+            "symbol": "PTC",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "WSM",
-            "dt": "2025-06-06"
+            "symbol": "GLOB",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "GRAB",
-            "dt": "2025-06-06"
+            "symbol": "EGY",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "SPIR",
-            "dt": "2025-06-06"
+            "symbol": "VXX",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "TRUP",
-            "dt": "2025-06-06"
+            "symbol": "X",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "EQT",
-            "dt": "2025-06-06"
+            "symbol": "ELEV",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "FLNC",
-            "dt": "2025-06-06"
+            "symbol": "USO",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "MRK",
-            "dt": "2025-06-06"
+            "symbol": "HSAI",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "TEAM",
-            "dt": "2025-06-06"
+            "symbol": "BEP",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "CGNX",
-            "dt": "2025-06-06"
+            "symbol": "CATX",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "VOO",
-            "dt": "2025-06-06"
+            "symbol": "CEG",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "CNX",
-            "dt": "2025-06-06"
+            "symbol": "DEO",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "QCOM",
-            "dt": "2025-06-06"
+            "symbol": "CRWV",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "FAZ",
-            "dt": "2025-06-06"
+            "symbol": "FVRR",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "DIA",
-            "dt": "2025-06-06"
+            "symbol": "VIK",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "SRAD",
-            "dt": "2025-06-06"
+            "symbol": "MOD",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "SDRL",
-            "dt": "2025-06-06"
+            "symbol": "ZTO",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "LSTR",
-            "dt": "2025-06-06"
+            "symbol": "GOOS",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "TME",
-            "dt": "2025-06-06"
+            "symbol": "TD",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "NXT",
-            "dt": "2025-06-06"
+            "symbol": "DECK",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "FLO",
-            "dt": "2025-06-06"
+            "symbol": "SVM",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "YSG",
-            "dt": "2025-06-06"
+            "symbol": "VIXY",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "GALT",
-            "dt": "2025-06-06"
+            "symbol": "BULL",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "CGC",
-            "dt": "2025-06-06"
+            "symbol": "UPS",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "ADSK",
-            "dt": "2025-06-06"
+            "symbol": "BMEA",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "TOL",
-            "dt": "2025-06-06"
+            "symbol": "OUST",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "MDT",
-            "dt": "2025-06-06"
+            "symbol": "GLXY",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "EWT",
-            "dt": "2025-06-06"
+            "symbol": "EBAY",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "ZM",
-            "dt": "2025-06-06"
+            "symbol": "HOWL",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "BBAR",
-            "dt": "2025-06-06"
+            "symbol": "MP",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "ENS",
-            "dt": "2025-06-06"
+            "symbol": "CRCL",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "AEM",
-            "dt": "2025-06-06"
+            "symbol": "NANOS",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "CPRT",
-            "dt": "2025-06-06"
+            "symbol": "HTZ",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "STEP",
-            "dt": "2025-06-06"
+            "symbol": "SPXC",
+            "dt": "2025-07-11"
         },
         {
-            "symbol": "CVX",
-            "dt": "2025-06-06"
-        },
-        {
-            "symbol": "BNTX",
-            "dt": "2025-06-06"
-        },
-        {
-            "symbol": "PLTY",
-            "dt": "2025-06-06"
-        },
-        {
-            "symbol": "SOC",
-            "dt": "2025-06-06"
-        },
-        {
-            "symbol": "OSK",
-            "dt": "2025-06-06"
-        },
-        {
-            "symbol": "NPWR",
-            "dt": "2025-06-06"
+            "symbol": "CIFR",
+            "dt": "2025-07-11"
         },
         {
             "symbol": "ARMK",
@@ -69471,6 +68947,594 @@
         {
             "symbol": "MA",
             "dt": "2025-07-10"
+        },
+        {
+            "symbol": "WULF",
+            "dt": "2025-07-11"
+        },
+        {
+            "symbol": "LUMN",
+            "dt": "2025-07-11"
+        },
+        {
+            "symbol": "AFRM",
+            "dt": "2025-07-11"
+        },
+        {
+            "symbol": "ALB",
+            "dt": "2025-07-11"
+        },
+        {
+            "symbol": "BITO",
+            "dt": "2025-07-11"
+        },
+        {
+            "symbol": "CONL",
+            "dt": "2025-07-11"
+        },
+        {
+            "symbol": "CORZ",
+            "dt": "2025-07-11"
+        },
+        {
+            "symbol": "DELL",
+            "dt": "2025-07-11"
+        },
+        {
+            "symbol": "DJT",
+            "dt": "2025-07-11"
+        },
+        {
+            "symbol": "FDX",
+            "dt": "2025-07-11"
+        },
+        {
+            "symbol": "ITA",
+            "dt": "2025-07-11"
+        },
+        {
+            "symbol": "IWM",
+            "dt": "2025-07-11"
+        },
+        {
+            "symbol": "JNJ",
+            "dt": "2025-07-11"
+        },
+        {
+            "symbol": "KSS",
+            "dt": "2025-07-11"
+        },
+        {
+            "symbol": "PM",
+            "dt": "2025-07-11"
+        },
+        {
+            "symbol": "SMCI",
+            "dt": "2025-07-11"
+        },
+        {
+            "symbol": "SMH",
+            "dt": "2025-07-11"
+        },
+        {
+            "symbol": "SNAP",
+            "dt": "2025-07-11"
+        },
+        {
+            "symbol": "SOXL",
+            "dt": "2025-07-11"
+        },
+        {
+            "symbol": "U",
+            "dt": "2025-07-11"
+        },
+        {
+            "symbol": "XBI",
+            "dt": "2025-07-11"
+        },
+        {
+            "symbol": "XLE",
+            "dt": "2025-07-11"
+        },
+        {
+            "symbol": "XLI",
+            "dt": "2025-07-11"
+        },
+        {
+            "symbol": "XLP",
+            "dt": "2025-07-11"
+        },
+        {
+            "symbol": "SNPS",
+            "dt": "2025-07-11"
+        },
+        {
+            "symbol": "RKLB",
+            "dt": "2025-07-11"
+        },
+        {
+            "symbol": "GME",
+            "dt": "2025-07-11"
+        },
+        {
+            "symbol": "BTI",
+            "dt": "2025-07-11"
+        },
+        {
+            "symbol": "RSI",
+            "dt": "2025-07-11"
+        },
+        {
+            "symbol": "BE",
+            "dt": "2025-07-11"
+        },
+        {
+            "symbol": "AA",
+            "dt": "2025-07-11"
+        },
+        {
+            "symbol": "AAOI",
+            "dt": "2025-07-11"
+        },
+        {
+            "symbol": "AMT",
+            "dt": "2025-07-11"
+        },
+        {
+            "symbol": "AZN",
+            "dt": "2025-07-11"
+        },
+        {
+            "symbol": "CHWY",
+            "dt": "2025-07-11"
+        },
+        {
+            "symbol": "SOUN",
+            "dt": "2025-07-11"
+        },
+        {
+            "symbol": "IBIT",
+            "dt": "2025-07-11"
+        },
+        {
+            "symbol": "BYND",
+            "dt": "2025-07-11"
+        },
+        {
+            "symbol": "CCJ",
+            "dt": "2025-07-11"
+        },
+        {
+            "symbol": "GOOG",
+            "dt": "2025-07-11"
+        },
+        {
+            "symbol": "MNDY",
+            "dt": "2025-07-11"
+        },
+        {
+            "symbol": "AAON",
+            "dt": "2025-07-11"
+        },
+        {
+            "symbol": "LAZR",
+            "dt": "2025-07-11"
+        },
+        {
+            "symbol": "FTNT",
+            "dt": "2025-07-11"
+        },
+        {
+            "symbol": "ORCL",
+            "dt": "2025-07-11"
+        },
+        {
+            "symbol": "ROAD",
+            "dt": "2025-07-11"
+        },
+        {
+            "symbol": "CASY",
+            "dt": "2025-07-11"
+        },
+        {
+            "symbol": "RIVN",
+            "dt": "2025-07-11"
+        },
+        {
+            "symbol": "ALAB",
+            "dt": "2025-07-11"
+        },
+        {
+            "symbol": "MS",
+            "dt": "2025-07-11"
+        },
+        {
+            "symbol": "HD",
+            "dt": "2025-07-11"
+        },
+        {
+            "symbol": "RGTI",
+            "dt": "2025-07-11"
+        },
+        {
+            "symbol": "CRNT",
+            "dt": "2025-07-11"
+        },
+        {
+            "symbol": "LMND",
+            "dt": "2025-07-11"
+        },
+        {
+            "symbol": "YINN",
+            "dt": "2025-07-11"
+        },
+        {
+            "symbol": "PSTG",
+            "dt": "2025-07-11"
+        },
+        {
+            "symbol": "TMDX",
+            "dt": "2025-07-11"
+        },
+        {
+            "symbol": "PSNY",
+            "dt": "2025-07-11"
+        },
+        {
+            "symbol": "NIO",
+            "dt": "2025-07-11"
+        },
+        {
+            "symbol": "NVO",
+            "dt": "2025-07-11"
+        },
+        {
+            "symbol": "KO",
+            "dt": "2025-07-11"
+        },
+        {
+            "symbol": "CLOV",
+            "dt": "2025-07-11"
+        },
+        {
+            "symbol": "SE",
+            "dt": "2025-07-11"
+        },
+        {
+            "symbol": "OPTT",
+            "dt": "2025-07-11"
+        },
+        {
+            "symbol": "NVMI",
+            "dt": "2025-07-11"
+        },
+        {
+            "symbol": "NVTS",
+            "dt": "2025-07-11"
+        },
+        {
+            "symbol": "TCOM",
+            "dt": "2025-07-11"
+        },
+        {
+            "symbol": "CAVA",
+            "dt": "2025-07-11"
+        },
+        {
+            "symbol": "VRAR",
+            "dt": "2025-07-11"
+        },
+        {
+            "symbol": "IRDM",
+            "dt": "2025-07-11"
+        },
+        {
+            "symbol": "MVST",
+            "dt": "2025-07-11"
+        },
+        {
+            "symbol": "BBAI",
+            "dt": "2025-07-11"
+        },
+        {
+            "symbol": "RDW",
+            "dt": "2025-07-11"
+        },
+        {
+            "symbol": "ODD",
+            "dt": "2025-07-11"
+        },
+        {
+            "symbol": "AGX",
+            "dt": "2025-07-11"
+        },
+        {
+            "symbol": "QUBT",
+            "dt": "2025-07-11"
+        },
+        {
+            "symbol": "ITB",
+            "dt": "2025-07-11"
+        },
+        {
+            "symbol": "LMT",
+            "dt": "2025-07-11"
+        },
+        {
+            "symbol": "MAGS",
+            "dt": "2025-07-11"
+        },
+        {
+            "symbol": "ANET",
+            "dt": "2025-07-11"
+        },
+        {
+            "symbol": "SCHD",
+            "dt": "2025-07-11"
+        },
+        {
+            "symbol": "RKT",
+            "dt": "2025-07-11"
+        },
+        {
+            "symbol": "RTX",
+            "dt": "2025-07-11"
+        },
+        {
+            "symbol": "SMHI",
+            "dt": "2025-07-11"
+        },
+        {
+            "symbol": "PAYO",
+            "dt": "2025-07-11"
+        },
+        {
+            "symbol": "PLAY",
+            "dt": "2025-07-11"
+        },
+        {
+            "symbol": "INSW",
+            "dt": "2025-07-11"
+        },
+        {
+            "symbol": "FUBO",
+            "dt": "2025-07-11"
+        },
+        {
+            "symbol": "LPSN",
+            "dt": "2025-07-11"
+        },
+        {
+            "symbol": "ONDS",
+            "dt": "2025-07-11"
+        },
+        {
+            "symbol": "ACI",
+            "dt": "2025-07-11"
+        },
+        {
+            "symbol": "FARO",
+            "dt": "2025-07-11"
+        },
+        {
+            "symbol": "CMPS",
+            "dt": "2025-07-11"
+        },
+        {
+            "symbol": "AR",
+            "dt": "2025-07-11"
+        },
+        {
+            "symbol": "RDFN",
+            "dt": "2025-07-11"
+        },
+        {
+            "symbol": "MGNI",
+            "dt": "2025-07-11"
+        },
+        {
+            "symbol": "M",
+            "dt": "2025-07-11"
+        },
+        {
+            "symbol": "ENVX",
+            "dt": "2025-07-11"
+        },
+        {
+            "symbol": "FNGS",
+            "dt": "2025-07-11"
+        },
+        {
+            "symbol": "VST",
+            "dt": "2025-07-11"
+        },
+        {
+            "symbol": "ENPH",
+            "dt": "2025-07-11"
+        },
+        {
+            "symbol": "FCX",
+            "dt": "2025-07-11"
+        },
+        {
+            "symbol": "WSM",
+            "dt": "2025-07-11"
+        },
+        {
+            "symbol": "GRAB",
+            "dt": "2025-07-11"
+        },
+        {
+            "symbol": "SPIR",
+            "dt": "2025-07-11"
+        },
+        {
+            "symbol": "TRUP",
+            "dt": "2025-07-11"
+        },
+        {
+            "symbol": "EQT",
+            "dt": "2025-07-11"
+        },
+        {
+            "symbol": "FLNC",
+            "dt": "2025-07-11"
+        },
+        {
+            "symbol": "MRK",
+            "dt": "2025-07-11"
+        },
+        {
+            "symbol": "TEAM",
+            "dt": "2025-07-11"
+        },
+        {
+            "symbol": "CGNX",
+            "dt": "2025-07-11"
+        },
+        {
+            "symbol": "VOO",
+            "dt": "2025-07-11"
+        },
+        {
+            "symbol": "CNX",
+            "dt": "2025-07-11"
+        },
+        {
+            "symbol": "QCOM",
+            "dt": "2025-07-11"
+        },
+        {
+            "symbol": "FAZ",
+            "dt": "2025-07-11"
+        },
+        {
+            "symbol": "DIA",
+            "dt": "2025-07-11"
+        },
+        {
+            "symbol": "SRAD",
+            "dt": "2025-07-11"
+        },
+        {
+            "symbol": "SDRL",
+            "dt": "2025-07-11"
+        },
+        {
+            "symbol": "LSTR",
+            "dt": "2025-07-11"
+        },
+        {
+            "symbol": "TME",
+            "dt": "2025-07-11"
+        },
+        {
+            "symbol": "NXT",
+            "dt": "2025-07-11"
+        },
+        {
+            "symbol": "FLO",
+            "dt": "2025-07-11"
+        },
+        {
+            "symbol": "YSG",
+            "dt": "2025-07-11"
+        },
+        {
+            "symbol": "GALT",
+            "dt": "2025-07-11"
+        },
+        {
+            "symbol": "CGC",
+            "dt": "2025-07-11"
+        },
+        {
+            "symbol": "ADSK",
+            "dt": "2025-07-11"
+        },
+        {
+            "symbol": "TOL",
+            "dt": "2025-07-11"
+        },
+        {
+            "symbol": "MDT",
+            "dt": "2025-07-11"
+        },
+        {
+            "symbol": "EWT",
+            "dt": "2025-07-11"
+        },
+        {
+            "symbol": "ZM",
+            "dt": "2025-07-11"
+        },
+        {
+            "symbol": "BBAR",
+            "dt": "2025-07-11"
+        },
+        {
+            "symbol": "ENS",
+            "dt": "2025-07-11"
+        },
+        {
+            "symbol": "AEM",
+            "dt": "2025-07-11"
+        },
+        {
+            "symbol": "CPRT",
+            "dt": "2025-07-11"
+        },
+        {
+            "symbol": "STEP",
+            "dt": "2025-07-11"
+        },
+        {
+            "symbol": "CVX",
+            "dt": "2025-07-11"
+        },
+        {
+            "symbol": "BNTX",
+            "dt": "2025-07-11"
+        },
+        {
+            "symbol": "PLTY",
+            "dt": "2025-07-11"
+        },
+        {
+            "symbol": "SOC",
+            "dt": "2025-07-11"
+        },
+        {
+            "symbol": "OSK",
+            "dt": "2025-07-11"
+        },
+        {
+            "symbol": "NPWR",
+            "dt": "2025-07-11"
+        },
+        {
+            "symbol": "DOCU",
+            "dt": "2025-07-11"
+        },
+        {
+            "symbol": "NXE",
+            "dt": "2025-07-11"
+        },
+        {
+            "symbol": "GUSH",
+            "dt": "2025-07-11"
+        },
+        {
+            "symbol": "GDX",
+            "dt": "2025-07-11"
+        },
+        {
+            "symbol": "MA",
+            "dt": "2025-07-11"
+        },
+        {
+            "symbol": "STNG",
+            "dt": "2025-07-11"
         }
     ]
 }
